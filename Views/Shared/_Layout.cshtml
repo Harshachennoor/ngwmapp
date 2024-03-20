@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ngwmapp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ngwmapp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="collapsibleMenu" class="menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">x</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Login</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="mainHeader">
+        <div id="company">
+            <a id="companyLogo" asp-action="LoginForm" asp-controller="Home">
+                <img src="~/images/logo.png" alt="logo" class="cLogo" />
+            </a>
+            <a href="www.google.com" id="companyTitle">GLOBAL WELD MANAGEMENT</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars" onclick="openNav()"></i>
+        </div>
+
+        @* <div>
+        <div class="languageHolder">
+        <a href="www.facebook.com" id="languageSelector">Select language</a>
+        </div>
+        </div> *@
+    </div>
+
+    @* left side for menu section *@
+    <div class="menuBar">
+        <div class="mainMenuBar">
+            <ul>
+                <li>
+                    <button id="collapseExpandBtn" style="margin-left: 190px;">-</button>
+                </li>
+                <li>
+                    <a href="#home">
+                        <div class="homeIcon"><i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="menuText homeText">Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#loginPage">
+                        <div class="loginIcon"><i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="menuText loginText">Login</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactForm">
+                        <div class="contactIcon"><i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <div class="menuText contactText">Contact Us</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <div class="aboutIcon">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </div>
+                        <div class="menuText aboutText">About GVM</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="socialMenu">
+            <hr>
+            <ul>
+                <li>
+                    <a href="#dialCall">
+                        <div class="phoneIcon"><i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="menuText phoneText">: +1 (847) 250-5240</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#facebook">
+                        <div class="facebookIcon"> <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="menuText facebookText">Facebook</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#twitter">
+                        <div class="twitterIcon"> <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                        <div class="menuText twitterText">Twitter</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#linkedin">
+                        <div class="linkedinIcon"><i class="fab fa-linkedin"></i></div>
+                        <div class="menuText linkedinText">Linkedin</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <main role="main">
+            <div class="websiteContent">
+                <a>Testing link</a>
+                <div>HIIII helocdbhfdsbfhjdsfbdjhvbs</div>
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <script>
+        document.getElementById("collapseExpandBtn").addEventListener('click', function () {
+            var menuBar = document.querySelector('.menuBar');
+            menuBar.classList.toggle('collapsed');
+            this.textContent = menuBar.classList.contains('collapsed') ? "+" : "-";
+            this.style.marginLeft = menuBar.classList.contains('collapsed') ? "35px" : "190px";
+            menuBar.style.width = menuBar.classList.contains('collapsed') ? "45px" : "205px";
+        });
+        function openNav() {
+            document.getElementById("collapsibleMenu").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("collapsibleMenu").style.width = "0";
+        }
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

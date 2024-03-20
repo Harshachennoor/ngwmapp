@@ -1,0 +1,307 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #080474;
+}
+
+li a {
+  display: flex;
+}
+
+button {
+  background: none;
+  /* Remove the background */
+  border: none;
+  /* Remove the border */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+  color: inherit;
+  /* Optional: Inherit the font color from the parent element */
+  font: inherit;
+  /* Optional: Inherit the font from the parent element */
+  cursor: pointer;
+  /* Optional: To keep the cursor as pointer to indicate it's clickable */
+  outline: inherit;
+  /* Optional: Use the parent's focus outline */
+}
+
+/* main header */
+
+.mainHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #080474;
+}
+
+#company {
+  max-height: 1.5rem;
+  display: flex;
+}
+
+.cLogo {
+  margin-top: 0.25rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+#companyTitle {
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.menu-btn {
+  color: white;
+  display: none;
+}
+
+.menu {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 0;
+  /* Set the width of the sidebar to 0 */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: #F5F5F5;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidebar */
+}
+
+.menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.menu a:hover {
+  color: #080474;
+}
+
+/* Position and style the close button (top right corner) */
+.menu .close-btn {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#languageHolder {
+  border: #F5F5F5;
+}
+
+#languageSelector {
+  color: white;
+  padding-right: 2rem;
+}
+
+
+/* menu content */
+.menuBar {
+  position: fixed;
+  margin-top: 2.5rem;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 205px;
+  height: 95%;
+  background-color: #F5F5F5;
+  position: fixed;
+  transition: width 0.3s;
+}
+
+.menuBar * {
+  color: #080474;
+}
+
+.menuBar i {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Adjusting Menu items logo and text */
+
+.homeText {
+  margin-top: 9px;
+  margin-left: 2px;
+}
+
+.loginIcon {
+  font-size: 2rem;
+  margin-left: 3px;
+}
+
+.loginText {
+  margin-top: 16px;
+  margin-left: 6px;
+}
+
+.contactIcon {
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.contactText {
+  margin-top: 16px;
+  margin-left: 6px;
+
+}
+
+.aboutIcon {
+  margin-left: 3px;
+  font-size: 2rem;
+}
+
+.aboutText {
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.phoneIcon {
+  font-size: 2rem;
+  margin-left: 4px;
+}
+
+.phoneText {
+  margin-top: 12px;
+  margin-left: 2px
+}
+
+.facebookIcon {
+  font-size: 2rem;
+  margin-left: 7px;
+}
+
+.facebookText {
+  margin-top: 16px;
+  margin-left: 9px;
+}
+
+.twitterIcon {
+  font-size: 2rem;
+  margin-left: 4px;
+}
+
+.twitterText {
+  margin-top: 15px;
+  margin-left: 2px;
+}
+
+.linkedinIcon {
+  font-size: 2rem;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+
+.linkedinText {
+  margin-top: 15px;
+  margin-left: 6px;
+}
+
+.websiteContent {
+  margin-left: 275px;
+  padding-top: 2.5rem;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Collapse action properities */
+.menuBar ul li a {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.collapsed .menuText {
+  opacity: 0;
+}
+
+.menuText {
+  transition: opacity 0.3s;
+}
+
+
+/* CSS MEDIA QUERIES */
+@media (max-width:992px) {
+  .mainHeader {
+    justify-content: space-between;
+  }
+
+  #company {
+    padding-left: 0.25rem;
+  }
+
+  #companyLogo {
+    display: none;
+  }
+
+  .menu-btn {
+    display: inline;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .t {
+    display: none;
+  }
+}
