@@ -15,37 +15,8 @@
 
 <body>
     <div id="collapsibleMenu" class="menu">
-        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">x</a>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Login</a>
-        <a href="#">Contact</a>
-    </div>
-    <div class="mainHeader">
-        <div id="company">
-            <a id="companyLogo" asp-action="LoginForm" asp-controller="Home">
-                <img src="~/images/logo.png" alt="logo" class="cLogo" />
-            </a>
-            <a href="www.google.com" id="companyTitle">GLOBAL WELD MANAGEMENT</a>
-        </div>
-        <div class="menu-btn">
-            <i class="fa-solid fa-bars" onclick="openNav()"></i>
-        </div>
-
-        @* <div>
-        <div class="languageHolder">
-        <a href="www.facebook.com" id="languageSelector">Select language</a>
-        </div>
-        </div> *@
-    </div>
-
-    @* left side for menu section *@
-    <div class="menuBar">
-        <div class="mainMenuBar">
+        <div class="mainOptions">
             <ul>
-                <li>
-                    <button id="collapseExpandBtn" style="margin-left: 190px;">-</button>
-                </li>
                 <li>
                     <a href="#home">
                         <div class="homeIcon"><i class="fa-solid fa-house"></i>
@@ -77,68 +48,258 @@
                 </li>
             </ul>
         </div>
-        <div class="socialMenu">
-            <hr>
-            <ul>
-                <li>
-                    <a href="#dialCall">
-                        <div class="phoneIcon"><i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="menuText phoneText">: +1 (847) 250-5240</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#facebook">
-                        <div class="facebookIcon"> <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <div class="menuText facebookText">Facebook</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#twitter">
-                        <div class="twitterIcon"> <i class="fa-brands fa-x-twitter"></i>
-                        </div>
-                        <div class="menuText twitterText">Twitter</div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#linkedin">
-                        <div class="linkedinIcon"><i class="fab fa-linkedin"></i></div>
-                        <div class="menuText linkedinText">Linkedin</div>
-                    </a>
-                </li>
-            </ul>
-        </div>
+
     </div>
 
+    <div class="mainHeader">
+        <div id="company">
+            <a id="companyLogo" asp-action="LoginForm" asp-controller="Home">
+                <img src="~/images/logo.png" alt="logo" class="cLogo" />
+            </a>
+            <a href="www.google.com" id="companyTitle">GLOBAL WELD MANAGEMENT</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
 
-    <div class="container">
-        <main role="main">
+
+        @* <div>
+        <div class="languageHolder">
+        <a href="www.facebook.com" id="languageSelector">Select language</a>
+        </div>
+        </div> *@
+    </div>
+    <div class="mainContainer">
+        <div class="menuBar">
+            <div class="mainMenuBar">
+                <ul>
+                    <li>
+                        <button id="collapseExpandBtn" style="margin-left: 190px;">-</button>
+                    </li>
+                    <li>
+                        <a href="#home">
+                            <div class="homeIcon"><i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="menuText homeText">Home</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#loginPage">
+                            <div class="loginIcon"><i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="menuText loginText">Login</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactForm">
+                            <div class="contactIcon"><i class="fa-solid fa-file-lines"></i>
+                            </div>
+                            <div class="menuText contactText">Contact Us</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <div class="aboutIcon">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </div>
+                            <div class="menuText aboutText">About GVM</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="socialMenu">
+                <hr>
+                <ul>
+                    <li>
+                        <a href="#dialCall">
+                            <div class="phoneIcon"><i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="menuText phoneText">: +1 (847) 250-5240</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#facebook">
+                            <div class="facebookIcon"> <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="menuText facebookText">Facebook</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#twitter">
+                            <div class="twitterIcon"> <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                            <div class="menuText twitterText">Twitter</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#linkedin">
+                            <div class="linkedinIcon"><i class="fab fa-linkedin"></i></div>
+                            <div class="menuText linkedinText">Linkedin</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bodyContainer">
+            <div class="searchLanguage">
+                <div class="search-container">
+                    <input type="text" id="searchBar" class="search-input" placeholder="Search...">
+                    <button onclick="performSearch()" class="search-button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Language <i class="fa-solid fa-caret-down"></i></button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">English</a>
+                        <a href="#">Chinese</a>
+                        <a href="#">Danish</a>
+                        <a href="#">Dutch</a>
+                        <a href="#">Telugu</a>
+                        <a href="#">Hindi</a>
+                        <a href="#">Marathi</a>
+                        <a href="#">Gujarathihibjhvhjb</a>
+                        <a href="#">Spanish</a>
+                        <a href="#">French</a>
+                        <a href="#">Itailian</a>
+                        <!-- Add more languages here -->
+                    </div>
+                </div>
+            </div>
             <div class="websiteContent">
-                <a>Testing link</a>
-                <div>HIIII helocdbhfdsbfhjdsfbdjhvbs</div>
                 @RenderBody()
             </div>
-        </main>
+            <hr>
+            <footer id="footer header-dark" class="d-print-none customizeFooter">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="widget">
+
+                                    <div class="widget-title">Global Weld Management (GWM) -- An application with global
+                                        accessibility and global collaboration --</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 1.5rem;">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="widget">
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Customer Care
+                                            </div>
+                                            <ul class="list">
+                                                <li><a href="#">Cancelation &amp; Change</a></li>
+                                                <li><a href="/Home/TermsAndConditions">Terms &amp; Conditions</a></li>
+                                                <li><a href="/Home/PrivacyPolicy">Privacy Policy</a></li>
+                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="widget">
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Insite GWM</div>
+                                            <ul class="list">
+                                                <li><a href="/Home/About">About GWM</a></li>
+                                                <li><a href="#">Why GWM</a></li>
+                                                <li><a href="#">Careers</a></li>
+                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="widget">
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">My Account</div>
+                                            <ul class="list">
+                                                <li><a href="/Account/Login">Sign In</a></li>
+                                                <li><a href="/Home/Pricing">Register/Purchase</a></li>
+                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="widget">
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Support</div>
+                                            <ul class="list">
+                                                <li><a href="#">FAQs</a></li>
+                                                <li><a href="#">Helpful Information</a></li>
+                                                <li><a href="#">Training</a></li>
+                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-content">
+                    <div class="container" style="padding-top: 2rem;">
+                        <div class="copyright-text text-center">© 2024 ECE Global. All Rights Reserved. Our Terms &amp;
+                            Conditions apply!</div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
     </div>
-
-
 
 
     <script>
         document.getElementById("collapseExpandBtn").addEventListener('click', function () {
             var menuBar = document.querySelector('.menuBar');
+            var bodyContainer = document.querySelector('.bodyContainer');
             menuBar.classList.toggle('collapsed');
+            bodyContainer.classList.toggle('collapsed');
             this.textContent = menuBar.classList.contains('collapsed') ? "+" : "-";
             this.style.marginLeft = menuBar.classList.contains('collapsed') ? "35px" : "190px";
             menuBar.style.width = menuBar.classList.contains('collapsed') ? "45px" : "205px";
         });
-        function openNav() {
-            document.getElementById("collapsibleMenu").style.width = "250px";
+
+        function toggleMenu() {
+            var icon = document.querySelector('.fa-bars');
+            if (icon) {
+                document.getElementById("collapsibleMenu").style.width = "120px";
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            }
+            else {
+                icon = document.querySelector('.fa-xmark');
+                document.getElementById("collapsibleMenu").style.width = "0";
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
         }
-        function closeNav() {
-            document.getElementById("collapsibleMenu").style.width = "0";
+        function dropdownToggle() {
+            document.getElementById("myDropdown").classList.toggle("show");
         }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        // Add the event listener to the dropdown button
+        document.querySelector('.dropbtn').addEventListener('click', dropdownToggle);
+        function performSearch() {
+            var query = document.getElementById('searchBar').value;
+            alert('Searching for: ' + query);
+            // Implement the logic to perform the search or redirect to the search results page
+            // For example, if you're using a server-side language like PHP:
+            // window.location.href = '/search.php?query=' + encodeURIComponent(query);
+        }
+
     </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

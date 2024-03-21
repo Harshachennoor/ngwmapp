@@ -13,8 +13,28 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/homeImage.png",
+      "PackagePath": "staticwebassets/images/homeImage.png"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/logo.png",
       "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/powerfulApp.png",
+      "PackagePath": "staticwebassets/images/powerfulApp.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/supplyChain.png",
+      "PackagePath": "staticwebassets/images/supplyChain.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/uniqueApplication.png",
+      "PackagePath": "staticwebassets/images/uniqueApplication.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/userNetworkManagement.png",
+      "PackagePath": "staticwebassets/images/userNetworkManagement.png"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/js/site.js",
