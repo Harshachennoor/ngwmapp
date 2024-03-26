@@ -13,12 +13,24 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/google.svg",
+      "PackagePath": "staticwebassets/images/google.svg"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/homeImage.png",
       "PackagePath": "staticwebassets/images/homeImage.png"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/linkedin.svg",
+      "PackagePath": "staticwebassets/images/linkedin.svg"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/logo.png",
       "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/microsoft.svg",
+      "PackagePath": "staticwebassets/images/microsoft.svg"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/powerfulApp.png",

@@ -18,14 +18,14 @@
         <div class="mainOptions">
             <ul>
                 <li>
-                    <a href="#home">
+                    <a asp-action="Index" asp-controller="Home">
                         <div class="homeIcon"><i class="fa-solid fa-house"></i>
                         </div>
                         <div class="menuText homeText">Home</div>
                     </a>
                 </li>
                 <li>
-                    <a href="#loginPage">
+                    <a asp-controller="Account" asp-action="LoginForm">
                         <div class="loginIcon"><i class="fa-solid fa-user"></i>
                         </div>
                         <div class="menuText loginText">Login</div>
@@ -62,12 +62,6 @@
             <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
         </div>
 
-
-        @* <div>
-        <div class="languageHolder">
-        <a href="www.facebook.com" id="languageSelector">Select language</a>
-        </div>
-        </div> *@
     </div>
     <div class="mainContainer">
         <div class="menuBar">
@@ -77,14 +71,14 @@
                         <button id="collapseExpandBtn" style="margin-left: 190px;">-</button>
                     </li>
                     <li>
-                        <a href="#home">
+                        <a asp-action="Index" asp-controller="Home">
                             <div class="homeIcon"><i class="fa-solid fa-house"></i>
                             </div>
                             <div class="menuText homeText">Home</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#loginPage">
+                        <a asp-action="LoginForm" asp-controller="Account">
                             <div class="loginIcon"><i class="fa-solid fa-user"></i>
                             </div>
                             <div class="menuText loginText">Login</div>
@@ -179,9 +173,10 @@
 
                                     <div class="widget-title">Global Weld Management (GWM) -- An application with global
                                         accessibility and global collaboration --</div>
+                                    <hr>
                                 </div>
                             </div>
-                            <div class="col-md-12" style="margin-top: 1.5rem;">
+                            <div class="col-md-12" style="margin-top: 1rem;">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="widget">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "292V26tlmBdLcQzzsWESjnfRIAVkfbAbIzuFuIQUBpE=",
+  "Hash": "EzJaA2WFJfexLSDL88c/3Us1M6usIQx8VSFzneflObs=",
   "Source": "ngwmapp",
   "BasePath": "_content/ngwmapp",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/google.svg",
+      "SourceId": "ngwmapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshach/Desktop/ngwmapp/wwwroot/",
+      "BasePath": "_content/ngwmapp",
+      "RelativePath": "images/google.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/google.svg"
+    },
+    {
       "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/homeImage.png",
       "SourceId": "ngwmapp",
       "SourceType": "Discovered",
@@ -112,6 +131,25 @@
       "OriginalItemSpec": "wwwroot/images/homeImage.png"
     },
     {
+      "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/linkedin.svg",
+      "SourceId": "ngwmapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshach/Desktop/ngwmapp/wwwroot/",
+      "BasePath": "_content/ngwmapp",
+      "RelativePath": "images/linkedin.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/linkedin.svg"
+    },
+    {
       "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/logo.png",
       "SourceId": "ngwmapp",
       "SourceType": "Discovered",
@@ -129,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/microsoft.svg",
+      "SourceId": "ngwmapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshach/Desktop/ngwmapp/wwwroot/",
+      "BasePath": "_content/ngwmapp",
+      "RelativePath": "images/microsoft.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/microsoft.svg"
     },
     {
       "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/powerfulApp.png",

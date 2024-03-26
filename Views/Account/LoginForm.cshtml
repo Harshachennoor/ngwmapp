@@ -1,0 +1,63 @@
+@model LoginViewModel
+<div class="mainLoginDiv">
+    <div>
+        <h3>Login to your account</h3>
+        <hr>
+    </div>
+    <div class="loginArea">
+        <div class="credentialsDiv">
+            <form method="post" asp-action="LoginForm">
+                <div asp-validation-summary="All" class="text-danger">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Email</label>
+                    <input class="form-control" asp-for="Email">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input class="form-control" type="password" asp-for="Password">
+                </div>
+                <div class="form-group">
+                    <div class="checkBox">
+                        <label asp-for="RememberMe">
+                            <input type="checkbox" asp-for="RememberMe">
+                            <span>Remember me?</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Log In</button>
+                </div>
+                <div class="form-group">
+                    <p>
+                        <a href="/Account/ForgotPassword">Forgot your password?</a>
+                    </p>
+                </div>
+                <div>
+                    <h7>Don't have an account yet? <a asp-action="RegisterForm" asp-controller="Home">Register now</a>
+                    </h7>
+                </div>
+            </form>
+        </div>
+        <div class="socialLogin">
+            <a href="/googlePage">
+                <div><img src="~/images/google.svg" alt="google icon"></i>
+                    <div>Continue with Google</div>
+                </div>
+            </a>
+            <a href="/facebookPage">
+                <div><img src="~/images/microsoft.svg" alt="microsoft logo">
+                    <div>Continue with Microsoft Account</div>
+                </div>
+            </a>
+            <a href="/linkedinPage">
+                <div><img src="~/images/linkedin.svg" alt="linkedin logo">
+                    <div>Continue with Linkedin</div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+</div>

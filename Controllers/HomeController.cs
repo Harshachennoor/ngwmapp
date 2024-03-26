@@ -6,17 +6,15 @@ namespace ngwmapp.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private CustomerContext _context { get; set; }
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(CustomerContext customerContext)
     {
-        _logger = logger;
+        _context = customerContext;
     }
-
     public IActionResult Index()
     {
         return View();
     }
 
-    
 }
