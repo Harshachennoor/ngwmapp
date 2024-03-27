@@ -434,9 +434,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0.5rem;
-  height: 18rem;
+  height: 15rem;
   min-width: 18rem;
+
 }
 
 .resultDescriptions h5 {

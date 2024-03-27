@@ -2,8 +2,9 @@
     <img src="~/images/homeImage.png" class="d-block w-100 customizeImage" alt="welding Image">
 </div>
 <div class="percentageResults">
-    <div class="headingText" style="padding: 1rem;">
+    <div class="headingText">
         Drive results with our SaaS application
+        <hr>
     </div>
     <div class="resultsWindow">
         <div class="resultDescriptions">
@@ -93,3 +94,34 @@
         possible. Adding welding codes from other countries, or customizing the range of qualifications to your
         needs, is part of our portfolio.</p>
 </div>
+
+<script>
+    const colors = [
+        { bgColor: '#080474', textColor: 'white' }
+    ];
+
+    const percentages = document.querySelectorAll('.resultsWindow .percentage');
+    let currentIndex = 0;
+
+    function updateColors() {
+        // Reset all
+        percentages.forEach(percentage => {
+            percentage.style.backgroundColor = '';
+            percentage.style.color = '';
+        });
+
+        // Apply new styles to current index
+        const currentColorScheme = colors[currentIndex % colors.length];
+        percentages[currentIndex % percentages.length].style.backgroundColor = currentColorScheme.bgColor;
+        percentages[currentIndex % percentages.length].style.color = currentColorScheme.textColor;
+
+        // Move to the next item
+        currentIndex++;
+    }
+
+    // Initial call
+    updateColors();
+
+    // Continue updating every 5 seconds
+    setInterval(updateColors, 5000);
+</script>
