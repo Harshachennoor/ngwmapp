@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/advantages.webp",
+      "PackagePath": "staticwebassets/images/advantages.webp"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/dropdown.png",
       "PackagePath": "staticwebassets/images/dropdown.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/enhanceClarity.png",
+      "PackagePath": "staticwebassets/images/enhanceClarity.png"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/google.svg",
@@ -37,20 +45,20 @@
       "PackagePath": "staticwebassets/images/microsoft.svg"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/networkingAndTeams.webp",
+      "PackagePath": "staticwebassets/images/networkingAndTeams.webp"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/powerfulApp.png",
       "PackagePath": "staticwebassets/images/powerfulApp.png"
     },
     {
-      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/supplyChain.png",
-      "PackagePath": "staticwebassets/images/supplyChain.png"
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/teamWork.png",
+      "PackagePath": "staticwebassets/images/teamWork.png"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/uniqueApplication.png",
       "PackagePath": "staticwebassets/images/uniqueApplication.png"
-    },
-    {
-      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/userNetworkManagement.png",
-      "PackagePath": "staticwebassets/images/userNetworkManagement.png"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/js/site.js",

@@ -55,6 +55,10 @@
 </div>
 <div class="weldingCC">
     <h2 style="padding-bottom:1rem;">Welding Codes & Customization</h2>
+    <p style="margin-top: 0.5rem;">Your business is most important. We designed this application to support your
+        requirements in any way
+        possible. Adding welding codes from other countries, or customizing the range of qualifications to your
+        needs, is part of our portfolio.</p>
     <div class="weldingCodes">
         <div class="pop-up-on-hover">
             <h1>ASME</h1>
@@ -89,11 +93,70 @@
             <span class="popover-text">Welder Performance Qualification Records</span>
         </div>
     </div>
-    <p style="margin-top: 0.5rem;">Your business is most important. We designed this application to support your
-        requirements in any way
-        possible. Adding welding codes from other countries, or customizing the range of qualifications to your
-        needs, is part of our portfolio.</p>
+
 </div>
+<div class="caContentDivs">
+    <div class="caContent">
+        <h2>Central Application</h2>
+        <p style="margin-top: 0.5rem;">Managing multiple manufacturing sites, either within a corporation or with
+            supply
+            chain management, was never
+            easier. With a multi-site license, you can define how many of the locations shall be grouped in a
+            central
+            administration or are operating independently. Central administration provides the opportunity to
+            leverage
+            experience, share approvals, and managing a joint set of library entrances. Even though every central
+            administration member shares its site information, the ownership of welding approvals remains in control
+            of
+            the
+            initiating site.</p>
+
+    </div>
+    <div class="caImagesDiv">
+        <div class="card" onmouseover="hoverEffect(this)" onmouseout="normalEffect(this)">
+            <img src="~/images/advantages.webp" alt="sample image">
+            <div class="overlay-text">ADVANTAGES</div>
+            <div class="imageInfo">
+                <h6>> Central Quality Management</h6>
+                <h6>> Shared Libraries</h6>
+                <h6>> Joint Welding Process Approval</h6>
+                <h6>> Independent Site Management</h6>
+            </div>
+        </div>
+        <div class="card" onmouseover="hoverEffect(this)" onmouseout="normalEffect(this)">
+            <img src="~/images/enhanceClarity.png" alt="sample image">
+            <div class="overlay-text">ENHANCE CLARITY</div>
+            <div class="imageInfo">
+                <h6>> Teamwork without Borders</h6>
+                <h6>> Supplier Control for Base & Filler Material</h6>
+                <h6>> Centralizing Approval Agnecies</h6>
+                <h6>> Increased Customre Trust</h6>
+            </div>
+        </div>
+        <div class="card" onmouseover="hoverEffect(this)" onmouseout="normalEffect(this)">
+            <img src="~/images/networkingAndTeams.webp" alt="sample image">
+            <div class="overlay-text">NETWORKING & TEAMS</div>
+            <div class="imageInfo">
+                <h6>> Multi-Site Expert Integration</h6>
+                <h6>> User Management</h6>
+                <h6>> Corporate Identity</h6>
+                <h6>> Control of Standards</h6>
+            </div>
+        </div>
+        <div class="card" onmouseover="hoverEffect(this)" onmouseout="normalEffect(this)">
+            <img src="~/images/teamWork.png" alt="sample image">
+            <div class="overlay-text">TEAM WORK</div>
+            <div class="imageInfo">
+                <h6>> Central Management & Administration</h6>
+                <h6>> Collective Data Capture</h6>
+                <h6>> Global Knowledge Sharing</h6>
+                <h6>> All-in-one Tool</h6>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <div class="cForm">
     <h2 style="font-weight:bold;">We would like to hear from you!</h2>
     <p>Please contact us with your questions or any feedback</p>
@@ -139,6 +202,7 @@
     </div>
 </div>
 
+
 <script>
     const colors = [
         { bgColor: '#080474', textColor: "#046307" }
@@ -168,4 +232,12 @@
 
     // Continue updating every 5 seconds
     setInterval(updateColors, 5000);
+
+    function hoverEffect(element) {
+        element.querySelector('img').style.opacity = "0.1";
+    }
+
+    function normalEffect(element) {
+        element.querySelector('img').style.opacity = "1";
+    }
 </script>
