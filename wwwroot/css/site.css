@@ -286,6 +286,7 @@ button {
 .searchLanguage {
   display: flex;
   padding-top: 0.5rem;
+  padding-right: 1rem;
   justify-content: space-between;
 
 }
@@ -303,9 +304,9 @@ button {
   /* font-size: 1px; */
   border: 1px solid #F5F5F5;
   border-radius: 0.875rem;
-  width: 90%;
+  width: 80%;
   /* You can adjust the width as needed */
-  background: #F5F5F5;
+  background: #e6e3e3c1;
 }
 
 .search-button {
@@ -331,11 +332,10 @@ button {
 
 /* Style the dropdown button */
 .dropbtn {
-  background-color: #ffffff;
-  color: black;
-  padding: 4px;
+  background-color: #080474;
+  color: white;
+  padding: 6px;
   font-size: 0.875rem;
-  border: 1px solid grey;
   border-radius: 0.2rem;
   cursor: pointer;
 }
@@ -385,6 +385,7 @@ button {
 
 .customizeImage {
   /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  max-height: 432px;
   margin: 0.5rem;
   padding-right: 1rem;
 }
@@ -443,16 +444,16 @@ button {
   padding: 0.25rem;
 }
 
-/* .resultDescriptions p {
-
-} */
+.resultDescriptions h1 {
+  font-size: 4rem;
+}
 
 
 .percentage {
   border-radius: 50%;
   height: 8rem;
   width: 8rem;
-  background-color: white;
+  /* background-color: white; */
   color: #080474;
 }
 
@@ -518,6 +519,7 @@ button {
   /* Adjust the value to control the pop-up effect */
   /* Optional: add a shadow for more depth */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .pop-up-on-hover:hover .popover-text {
@@ -589,6 +591,65 @@ button {
   color: #0d6efd;
 }
 
+/* ************* */
+
+/* Contact Form CSS */
+
+.cForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F5F5;
+  margin: 0.5rem;
+  padding: 1rem 0;
+}
+
+.cForm div {
+  padding: 0.25rem 0.5rem;
+}
+
+.cDetails {
+  display: flex;
+}
+
+.cContact {
+  display: flex;
+}
+
+.i {
+  width: 40rem;
+}
+
+.i label {
+  padding-top: 0.5rem;
+}
+
+.i textarea {
+  min-height: 8rem;
+}
+
+.cSubmit {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cAddress {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.cSubmitButton {
+  margin: 1rem 18rem 2rem 0.75rem;
+  max-width: 12rem;
+  max-height: 2.5rem;
+}
+
+.Asterix {
+  padding-left: 5px;
+  color: #F00;
+}
 
 /* **************************** */
 
@@ -631,6 +692,14 @@ button {
   }
 
   @media (max-width:776px) {
+    .searchLanguage {
+      padding-right: 0;
+    }
+
+    .search-input {
+      width: 90%;
+    }
+
     #carouselExampleCaptions {
       display: none;
     }
@@ -708,6 +777,35 @@ button {
       padding-bottom: 1rem;
       border-bottom: 1px solid #000;
       ;
+    }
+
+    .cForm {
+      padding: 0.5rem 0;
+    }
+
+    .cForm p {
+      font-size: 0.75rem;
+    }
+
+    .cDetails {
+      flex-direction: column;
+      width: max-content;
+    }
+
+    .cContact {
+      flex-direction: column;
+    }
+
+    .cSubmit {
+      flex-direction: column;
+    }
+
+    .cSubmitButton {
+      margin: 0 0 0 1rem;
+    }
+
+    .i {
+      width: 20rem;
     }
   }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EzJaA2WFJfexLSDL88c/3Us1M6usIQx8VSFzneflObs=",
+  "Hash": "DPltO4svsdKNCyOCGGv6XOXSaa6yiYMizIRXwWsE24Q=",
   "Source": "ngwmapp",
   "BasePath": "_content/ngwmapp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/dropdown.png",
+      "SourceId": "ngwmapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/harshach/Desktop/ngwmapp/wwwroot/",
+      "BasePath": "_content/ngwmapp",
+      "RelativePath": "images/dropdown.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/dropdown.png"
     },
     {
       "Identity": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/google.svg",
