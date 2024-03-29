@@ -33,6 +33,66 @@
       "PackagePath": "staticwebassets/images/homeImage.png"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/automobile.png",
+      "PackagePath": "staticwebassets/images/industries/automobile.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/bridge.png",
+      "PackagePath": "staticwebassets/images/industries/bridge.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/chemical.png",
+      "PackagePath": "staticwebassets/images/industries/chemical.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/energy.png",
+      "PackagePath": "staticwebassets/images/industries/energy.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/fossilePlants.png",
+      "PackagePath": "staticwebassets/images/industries/fossilePlants.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/gas.png",
+      "PackagePath": "staticwebassets/images/industries/gas.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/oilIndustry.png",
+      "PackagePath": "staticwebassets/images/industries/oilIndustry.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/paper.png",
+      "PackagePath": "staticwebassets/images/industries/paper.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/pill.png",
+      "PackagePath": "staticwebassets/images/industries/pill.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/settings.png",
+      "PackagePath": "staticwebassets/images/industries/settings.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/ship.png",
+      "PackagePath": "staticwebassets/images/industries/ship.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/spaceshuttle.png",
+      "PackagePath": "staticwebassets/images/industries/spaceshuttle.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/stationare.png",
+      "PackagePath": "staticwebassets/images/industries/stationare.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/train.png",
+      "PackagePath": "staticwebassets/images/industries/train.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/industries/transportation.png",
+      "PackagePath": "staticwebassets/images/industries/transportation.png"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/linkedin.svg",
       "PackagePath": "staticwebassets/images/linkedin.svg"
     },
