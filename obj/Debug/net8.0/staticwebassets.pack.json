@@ -13,6 +13,102 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp.html",
+      "PackagePath": "staticwebassets/images/- ngwmapp.html"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/all.min.css",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/all.min.css"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/automobile.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/automobile.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/bootstrap.min.css",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/bridge.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/bridge.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/chemical.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/chemical.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/energy.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/energy.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/fossilePlants.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/fossilePlants.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/gas.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/gas.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/jquery.min.js",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/jquery.min.js"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/logo.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/logo.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/ngwmapp.styles.css",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/ngwmapp.styles.css"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/oilIndustry.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/oilIndustry.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/paper.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/paper.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/pill.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/pill.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/settings.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/settings.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/ship.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/ship.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/site.css",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/site.css"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/site.js",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/site.js"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/spaceshuttle.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/spaceshuttle.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/stationare.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/stationare.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/train.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/train.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/- ngwmapp_files/transportation.png",
+      "PackagePath": "staticwebassets/images/- ngwmapp_files/transportation.png"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/advantages.webp",
       "PackagePath": "staticwebassets/images/advantages.webp"
     },

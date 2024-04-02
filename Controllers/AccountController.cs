@@ -58,6 +58,7 @@ public class AccountController : Controller
             if (customer != null)
             {
                 bool doesPasswordMatch = BCrypt.Net.BCrypt.Verify(l.Password, customer.Password);
+
                 if (doesPasswordMatch)
                 {
                     //Creating Cookie if user checks RememberMe
@@ -108,7 +109,7 @@ public class AccountController : Controller
             }
             else
             {
-                ModelState.AddModelError(nameof(c.Email), "Email already Exists");
+                ModelState.AddModelError(nameof(c.Email), "Email already exists");
             }
         }
         return View("RegisterForm", c);
@@ -119,7 +120,7 @@ public class AccountController : Controller
         //Clearing Session and Cookies
         HttpContext.Session.Clear();
         Response.Cookies.Delete("UserID");
-        return View("Index");
+        return View("LoginForm");
     }
 
 }

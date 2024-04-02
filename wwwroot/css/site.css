@@ -646,6 +646,12 @@ button {
 
 /* ********* */
 
+.solutionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.05rem 1rem;
+}
 
 .Container {
   min-height: 10rem;
@@ -731,7 +737,32 @@ button {
 }
 
 /* ************* */
+/* Registartion Page CSS */
+.registrationForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
+.registrationDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.registrationHeading {
+  display: flex;
+  justify-content: center;
+}
+
+.registrationDiv span {
+  font-size: 0.75rem;
+}
+
+.registrationDiv label span {
+  font-size: 1rem;
+}
+
+/* *********** */
 /* Contact Form CSS */
 
 .cForm {
@@ -895,6 +926,10 @@ button {
   @media (max-width:576px) {
     .weldingCodes h2 {
       font-size: 1.4rem;
+    }
+
+    .registrationDiv {
+      flex-direction: column;
     }
 
     .headingText {

@@ -10,8 +10,8 @@ using ngwmapp;
 namespace ngwmapp.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20240326171814_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240402221952_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,6 +22,26 @@ namespace ngwmapp.Migrations
             modelBuilder.Entity("ngwmapp.Customer", b =>
                 {
                     b.Property<string>("CustomerId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("AddressOne")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("AddressTwo")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -41,6 +61,18 @@ namespace ngwmapp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PostalCode")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WebsiteUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
