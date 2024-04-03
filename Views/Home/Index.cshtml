@@ -1,10 +1,10 @@
-﻿<div>
+﻿<div class="homeImage">
     <img src="~/images/homeImage.png" class="d-block w-100 customizeImage" alt="welding Image">
 </div>
 <div class="caContentDivs">
     <div class="caContent">
         <h2>Central Application</h2>
-        <p style="margin-top: 0.5rem;">Managing multiple manufacturing sites, either within a corporation or with
+        <p>Managing multiple manufacturing sites, either within a corporation or with
             supply
             chain management, was never
             easier. With a multi-site license, you can define how many of the locations shall be grouped in a
@@ -156,7 +156,7 @@
     </div>
 
 </div>
-<div>
+<div style="margin: 0.5rem 0;">
     <div class="solutionDiv">
         <h2>Solution to Industries</h2>
         <h5>Global Weld Management (GWM) can be applied to all industries which utilize welding</h5>
@@ -258,48 +258,52 @@
 </div>
 
 <div class="cForm">
-    <h2 style="font-weight:bold;">We would like to hear from you!</h2>
-    <p>Please contact us with your questions or any feedback</p>
-    <div class="cDetails">
-        <div class="form-group">
-            <label>Name<span class="Asterix">*</span></label>
-            <input class="form-control" placeholder="Enter your Name">
+    <form asp-action="SubmitForm" asp-controller="Contact" method="post">
+        <div class="cformHeading">
+            <h2 style="font-weight:bold;">We would like to hear from you!</h2>
+            <p>Please contact us with your questions or any feedback</p>
         </div>
-        <div class="form-group">
-            <label>Company<span class="Asterix">*</span></label>
-            <input class="form-control" placeholder="Enter your Company name">
+        <div class="cDetails">
+            <div class="form-group">
+                <label class="form-label">Name<span class="Asterix">*</span></label>
+                <input class="form-control" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Company<span class="Asterix">*</span></label>
+                <input class="form-control" placeholder="Enter your Company name" required>
+            </div>
         </div>
-    </div>
-    <div class="cContact">
-        <div class="form-group">
-            <label>Email<span class="Asterix">*</span></label>
-            <input class="form-control" placeholder="Enter your Email">
+        <div class="cContact">
+            <div class="form-group">
+                <label class="form-label">Email<span class="Asterix">*</span></label>
+                <input class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Phone number<span class="Asterix">*</span></label>
+                <input class="form-control" placeholder="Enter your contact number" required>
+            </div>
         </div>
-        <div class="form-group">
-            <label>Phone number<span class="Asterix">*</span></label>
-            <input class="form-control" placeholder="Enter your contact number">
+        <div class="i form-group">
+            <label class="form-label">Your Subject<span class="Asterix">*</span></label>
+            <input class="form-control" placeholder="Subject" required>
         </div>
-    </div>
-    <div class="i form-group">
-        <label>Your Subject<span class="Asterix">*</span></label>
-        <input class="form-control" placeholder="Subject">
-    </div>
-    <div class="i form-group">
-        <label>Message<span class="Asterix">*</span></label>
-        <textarea class="form-control" placeholder="Enter your message"></textarea>
-    </div>
-    <div class="cSubmit">
-        <div class="cSubmitButton">
-            <button class="btn btn-primary">SEND MESSAGE</button>
+        <div class="i form-group">
+            <label class="form-label">Message<span class="Asterix">*</span></label>
+            <textarea class="form-control" placeholder="Enter your message" required></textarea>
         </div>
-        <div class="cAddress">
-            <h5>ADDRESS</h5>
-            <h7>Global Weld Management</h7>
-            <h7>Itasca, IL 60143</h7>
-            <h7>USA</h7>
-            <h7>P +1 (847) 250-5240</h7>
+        <div class="cSubmit">
+            <div class="cSubmitButton">
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+            </div>
+            <div class="cAddress">
+                <h5>ADDRESS</h5>
+                <h7>Global Weld Management</h7>
+                <h7>Itasca, IL 60143</h7>
+                <h7>USA</h7>
+                <h7>P +1 (847) 250-5240</h7>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
 
 

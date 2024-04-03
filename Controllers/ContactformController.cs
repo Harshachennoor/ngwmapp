@@ -6,15 +6,19 @@ namespace ngwmapp.Controllers;
 
 public class ContactformController : Controller
 {
-    private CustomerContext _context { get; set; }
 
-    public ContactformController(CustomerContext customerContext)
-    {
-        _context = customerContext;
-    }
+    public ContactformController() { }
+
+    [HttpGet]
     public IActionResult Index()
     {
         return View();
+    }
+
+    [HttpPost]
+    public IActionResult SubmitForm()
+    {
+        return View("FormSubmitted");
     }
 
 }
