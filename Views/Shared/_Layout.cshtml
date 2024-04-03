@@ -14,6 +14,19 @@
 </head>
 
 <body>
+
+    @* Main Header Top Bar *@
+    <div class="mainHeader">
+        <div id="company">
+            <a id="companyLogo" asp-action="LoginForm" asp-controller="Home">
+                <img src="~/images/logo.png" alt="logo" class="cLogo" />
+            </a>
+            <a href="www.google.com" id="companyTitle">GLOBAL WELD MANAGEMENT</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </div>
     <div id="collapsibleMenu" class="menu">
         <div class="mainOptions">
             <ul>
@@ -48,21 +61,8 @@
                 </li>
             </ul>
         </div>
-
     </div>
 
-    <div class="mainHeader">
-        <div id="company">
-            <a id="companyLogo" asp-action="LoginForm" asp-controller="Home">
-                <img src="~/images/logo.png" alt="logo" class="cLogo" />
-            </a>
-            <a href="www.google.com" id="companyTitle">GLOBAL WELD MANAGEMENT</a>
-        </div>
-        <div class="menu-btn">
-            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-        </div>
-
-    </div>
     <div class="mainContainer">
         <div class="menuBar">
             <div class="mainMenuBar">
@@ -152,7 +152,7 @@
                         <a href="#">Telugu</a>
                         <a href="#">Hindi</a>
                         <a href="#">Marathi</a>
-                        <a href="#">Gujarathihibjhvhjb</a>
+                        <a href="#">Gujarathihibjhv</a>
                         <a href="#">Spanish</a>
                         <a href="#">French</a>
                         <a href="#">Itailian</a>
@@ -257,7 +257,7 @@
         function toggleMenu() {
             var icon = document.querySelector('.fa-bars');
             if (icon) {
-                document.getElementById("collapsibleMenu").style.width = "120px";
+                document.getElementById("collapsibleMenu").style.width = "10rem";
                 icon.classList.remove('fa-bars');
                 icon.classList.add('fa-xmark');
             }

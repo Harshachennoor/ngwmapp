@@ -1,13 +1,6 @@
 html {
-  font-size: 14px;
+  font-size: 1rem;
 }
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
 
 .btn-primary {
   background-color: #080474;
@@ -21,13 +14,6 @@ html {
 .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-
 
 a {
   text-decoration: none;
@@ -50,16 +36,12 @@ button {
   padding: 0;
   margin: 0;
   color: inherit;
-  /* Optional: Inherit the font color from the parent element */
   font: inherit;
-  /* Optional: Inherit the font from the parent element */
   cursor: pointer;
-  /* Optional: To keep the cursor as pointer to indicate it's clickable */
   outline: inherit;
-  /* Optional: Use the parent's focus outline */
 }
 
-/* main header */
+/* main header CSS*/
 
 .mainHeader {
   position: fixed;
@@ -74,7 +56,6 @@ button {
 }
 
 #company {
-  max-height: 1.5rem;
   display: flex;
 }
 
@@ -96,6 +77,10 @@ button {
   display: none;
 }
 
+#collapsibleMenu i {
+  font-size: 1.5rem;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -104,35 +89,25 @@ button {
   position: fixed;
   z-index: 100;
   right: 0;
-  margin-top: 2.5rem;
-  top: 0;
-  overflow-y: auto;
-  justify-content: space-between;
   background-color: #F5F5F5;
-  position: fixed;
   transition: width 0.3s;
+}
+
+.mainOptions {
+  padding: 1rem 0 1rem 1rem;
 }
 
 .mainOptions a * {
   color: #080474;
-
 }
 
-/* When you mouse over the navigation links, change their color */
 .mainOptions a:active * {
-  color: white;
-  background-color: #080474;
+  color: #258cfb;
 }
 
+/* ********* */
 
-#languageHolder {
-  border: #F5F5F5;
-}
-
-#languageSelector {
-  color: white;
-  padding-right: 2rem;
-}
+/* Side Nav bar CSS  */
 
 .mainContainer {
   margin-top: 2.5rem;
@@ -140,25 +115,20 @@ button {
   height: 100vh;
 }
 
-/* menu content */
 .menuBar {
   position: fixed;
   z-index: 10;
+  width: 205px;
+  height: 95%;
   margin-top: 2.5rem;
   top: 0;
-  left: 0;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 205px;
-  height: 95%;
   background-color: #e6e3e3c1;
-  position: fixed;
   transition: width 0.3s;
   flex-grow: 0;
 }
-
 
 .menuBar i {
   font-size: 1.5rem;
@@ -177,14 +147,13 @@ button {
   color: white;
 }
 
-
 /* Adjusting Menu items logo and text */
 .homeIcon {
   font-size: 2rem;
 }
 
 .homeText {
-  margin-top: 16px;
+  margin-top: 1rem;
   margin-left: 2px;
 }
 
@@ -260,72 +229,53 @@ button {
   margin-left: 6px;
 }
 
-
 /* Collapse action properities */
 .menuBar ul li a {
   white-space: nowrap;
   overflow: hidden;
 }
 
-.collapsed .menuText {
-  opacity: 0;
+.collapsed+.bodyContainer {
+  margin-left: 50px;
 }
 
-.menuText {
-  transition: opacity 0.3s;
-}
+/* ************* */
 
 .bodyContainer {
-  flex-grow: 1;
   margin-left: 205px;
   display: flex;
   flex-direction: column;
 }
 
-.collapsed+.bodyContainer {
-  margin-left: 50px;
-}
+/* Search and language div */
 
 .searchLanguage {
   display: flex;
   padding-top: 0.5rem;
-  padding-right: 1rem;
-  justify-content: space-between;
-
 }
 
 .search-container {
   display: flex;
   min-width: 190px;
   margin: 0.25rem;
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
   flex-grow: 1;
 }
 
 .search-input {
-  padding: 0.25rem;
-  /* font-size: 1px; */
+  padding: 0.25rem 0.5rem;
   border: 1px solid #F5F5F5;
   border-radius: 0.875rem;
   width: 80%;
-  /* You can adjust the width as needed */
   background: #e6e3e3c1;
 }
 
 .search-button {
-  float: left;
-  width: 2rem;
-  /* Width of the search button */
   padding: 0.25rem;
   color: #080474;
-  font-size: 1rem;
-  border-left: none;
-  cursor: pointer;
 }
 
 .search-input:focus {
-  outline: none;
-  /* Removes the outline around the input when focused */
   background-color: #fff;
 }
 
@@ -333,22 +283,18 @@ button {
   color: #0d6efd;
 }
 
-/* Style the dropdown button */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  margin: 0.25rem;
+  padding-right: 0.75rem;
+}
+
 .dropbtn {
   background-color: #080474;
   color: white;
   padding: 6px;
   font-size: 0.875rem;
   border-radius: 0.2rem;
-  cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  margin: 0.25rem;
-  position: relative;
-  display: inline-block;
-  padding-right: 0.5rem;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -365,7 +311,7 @@ button {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  padding: 12px 12px 12px 8px;
+  padding: 0.75rem;
   display: block;
   color: #080474 !important;
 }
@@ -381,22 +327,25 @@ button {
   display: block;
 }
 
+/* ********** */
+
+
 .websiteContent {
-  margin: 0.75rem;
-  /* background-color: #258cfb; */
+  margin: 0.875rem;
 }
+
+/* Home default Image  */
 
 .customizeImage {
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-  max-height: 432px;
-  /* padding-right: 1rem; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  max-height: 24rem;
 }
 
-/* Central Application Div */
+/* ****** */
 
+/* Central Application Div */
 .caContentDivs {
   display: flex;
-  margin: 0.5rem 0;
   padding: 1rem;
 }
 
@@ -405,12 +354,12 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .caImagesDiv {
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -421,15 +370,12 @@ button {
 }
 
 .card img {
-  width: 100%;
   height: 100%;
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .overlay-text {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -439,25 +385,19 @@ button {
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .imageInfo {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgb(8, 4, 116, 0.5);
-  z-index: 10;
+  z-index: 1;
   color: white;
-  visibility: hidden;
   opacity: 0;
   display: flex;
   flex-direction: column;
-  padding: 0.3rem;
   justify-content: center;
   padding-left: 1rem;
 }
@@ -469,8 +409,7 @@ button {
 
 .card:hover img {
   transform: scale(1.15);
-  z-index: 10;
-
+  z-index: 100;
 }
 
 .card:hover .imageInfo {
@@ -480,10 +419,14 @@ button {
   z-index: 10;
 }
 
+.card:hover .overlay-text {
+  height: fit-content;
+  z-index: 100;
+}
+
 /* ********* */
 
-
-
+/* drive Saas div CSS  */
 
 .percentageResults {
   display: flex;
@@ -491,7 +434,6 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #F5F5F5;
-  /* margin: 0.5rem; */
   flex: 1;
 }
 
@@ -505,6 +447,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #080474;
 }
 
 .resultsWindow {
@@ -517,27 +460,41 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 15rem;
+  height: 10rem;
   min-width: 18rem;
 
-}
-
-.resultDescriptions h5 {
-  padding: 0.25rem;
 }
 
 .resultDescriptions h1 {
   font-size: 4rem;
 }
 
+/* ****** */
 
-.percentage {
-  border-radius: 50%;
-  height: 8rem;
-  width: 8rem;
-  /* background-color: white; */
-  color: #080474;
+/* Powerful app Div CSS  */
+
+.contentDesc1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 1rem;
 }
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageArea * {
+  height: 20rem;
+  width: 20rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ******* */
+
+/* Welding Code customization CSS  */
 
 .weldingCC {
   display: flex;
@@ -545,15 +502,13 @@ button {
   justify-content: center;
   align-items: center;
   background-color: #F5F5F5;
-  /* margin: 0.5rem; */
-  padding: 0.75rem;
+  padding: 0.75rem 0.25rem;
 }
 
 .weldingCodes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .weldingCodes div {
@@ -571,8 +526,6 @@ button {
 
 .pop-up-on-hover {
   transition: transform 0.3s ease;
-  /* Animation time and easing function */
-  /* Ensure that the div has a stacking context for the z-index to work */
   position: relative;
   z-index: 1;
 }
@@ -580,59 +533,29 @@ button {
 .popover-text {
   position: absolute;
   bottom: 100%;
-  /* Position above the div */
   left: 50%;
-  /* Center the popover */
   transform: translateX(-50%);
-  /* Center align the popover */
   display: none;
   padding: 5px;
   color: #fff;
   background: #000;
   border-radius: 3px;
-  z-index: 2;
-  /* Make sure it's above the div */
   white-space: nowrap;
-  /* Keep the text on one line */
 }
 
 .pop-up-on-hover:hover {
   transform: translateY(-5px);
-  /* Adjust the value to control the pop-up effect */
-  /* Optional: add a shadow for more depth */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
 }
 
 .pop-up-on-hover:hover .popover-text {
   display: block;
 }
 
-.contentDesc1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.5rem;
-  padding: 1rem;
-}
-
-.textInfo {
-  display: flex;
-  flex-direction: column;
-}
-
-.textInfo * {
-  padding: 0 2rem 0 0;
-}
-
-.imageArea * {
-  height: 20rem;
-  width: 20rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-}
+/* ****** */
 
 
+/* solution infinite loop div CSS  */
 .solutionDiv {
   display: flex;
   flex-direction: column;
@@ -651,7 +574,6 @@ button {
   display: flex;
   flex-wrap: nowrap;
   background-color: #F5F5F5;
-  margin: 0.5rem;
   min-height: 10rem;
 }
 
@@ -665,7 +587,6 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0rem;
   height: 10rem;
   min-width: 10rem;
 }
@@ -677,16 +598,16 @@ button {
 .iImageDiv {
   border-radius: 50%;
   background-color: white;
-  color: #080474;
   padding: 0.25rem;
 }
 
 /* ******** */
+
 /* LOGIN PAGE CSS */
+
 .mainLoginDiv {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem;
 }
 
 .loginArea {
@@ -724,11 +645,14 @@ button {
 }
 
 /* ************* */
+
 /* Registartion Page CSS */
+
 .registrationForm {
-  margin: 1rem;
   display: flex;
   flex-direction: column;
+  background-color: #F5F5F5;
+  padding: 0.5rem;
 }
 
 .registrationDiv {
@@ -750,6 +674,7 @@ button {
 }
 
 /* *********** */
+
 /* Contact Form CSS */
 
 .cForm {
@@ -802,11 +727,12 @@ button {
   color: #F00;
 }
 
+/* ********/
+
 /* Footer Css customizing */
 
 .customizeFooter {
   padding: 0.25rem;
-  padding-top: 0.5rem;
 }
 
 .customizeFooter li * {
@@ -818,6 +744,7 @@ button {
 }
 
 /* ******* */
+
 /* **************************** */
 
 /* CSS MEDIA QUERIES */
@@ -845,151 +772,145 @@ button {
     display: none;
   }
 
+  .searchLanguage {
+    padding-right: 0;
+  }
+
   .bodyContainer {
     margin-left: 0;
   }
 
-  #collapsibleMenu i {
+  #carouselExampleCaptions {
+    display: none;
+  }
+
+  .resultsWindow {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contentDesc1 {
+    flex-direction: column;
+  }
+
+  .resultDescriptions {
+    height: 12rem;
+    padding: 0;
+  }
+
+  .headingText {
     font-size: 1.5rem;
-    padding-left: 0.5rem;
   }
 
-  .bodyContainer {
+  .weldingCodes div {
+    height: 6rem;
+    width: 10rem;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+
+  .weldingCodes h1 {
+    font-size: 3rem;
+  }
+
+  .weldingCodes span {
+    font-size: 0.5rem;
+  }
+
+  .credentialsDiv {
+    padding: 0 0.5rem 0 0;
+  }
+
+  .caContentDivs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caContent {
+    width: 100%;
+  }
+
+  .socialLogin {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width:576px) {
+
+  html {
+    font-size: 14px;
+  }
+
+  .caImagesDiv {
     margin-left: 0;
   }
 
-  @media (max-width:776px) {
-    .searchLanguage {
-      padding-right: 0;
-    }
-
-    .search-input {
-      width: 90%;
-    }
-
-    #carouselExampleCaptions {
-      display: none;
-    }
-
-    .resultsWindow {
-      flex-direction: column;
-    }
-
-    .contentDesc1 {
-      flex-direction: column;
-    }
-
-    .resultDescriptions {
-      height: 14rem;
-      padding: 0;
-    }
-
-    .headingText {
-      font-size: 1.5rem;
-    }
-
-    .weldingCodes div {
-      height: 6rem;
-      width: 10rem;
-      margin: 0.5rem;
-      padding: 1rem;
-    }
-
-    .weldingCodes h1 {
-      font-size: 3rem;
-    }
-
-    .weldingCodes span {
-      font-size: 0.5rem;
-    }
-
-    .credentialsDiv {
-      padding: 0 0.5rem 0 0;
-    }
-
-    .caContentDivs {
-      flex-direction: column;
-    }
-
-    .caContent {
-      width: 100%;
-    }
-
-    .socialLogin {
-      margin: 0.5rem 0;
-    }
+  .weldingCodes h2 {
+    font-size: 1.4rem;
   }
 
-  @media (max-width:576px) {
-    .caImagesDiv {
-      margin-left: 0;
-    }
-
-    .weldingCodes h2 {
-      font-size: 1.4rem;
-    }
-
-    .registrationDiv {
-      flex-direction: column;
-    }
-
-    .headingText {
-      font-size: 1.25rem;
-    }
-
-    .imageArea * {
-      height: 15rem;
-      width: 15rem;
-    }
-
-    .textInfo {
-      align-items: center;
-    }
-
-    .mainLoginDiv {
-      align-items: center;
-    }
-
-    .loginArea {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .credentialsDiv {
-      border-right: 0;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #000;
-      ;
-    }
-
-    .cForm {
-      padding: 0.5rem 0;
-    }
-
-    .cForm p {
-      font-size: 0.75rem;
-    }
-
-    .cDetails {
-      flex-direction: column;
-      width: max-content;
-    }
-
-    .cContact {
-      flex-direction: column;
-    }
-
-    .cSubmit {
-      flex-direction: column;
-    }
-
-    .cSubmitButton {
-      margin: 0 0 0 1rem;
-    }
-
-    .i {
-      width: 20rem;
-    }
+  .registrationDiv {
+    flex-direction: column;
   }
 
+  .headingText {
+    font-size: 1.25rem;
+  }
+
+  .imageArea * {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .textInfo {
+    align-items: center;
+  }
+
+  .resultsWindow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainLoginDiv {
+    align-items: center;
+  }
+
+  .loginArea {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .credentialsDiv {
+    border-right: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+    ;
+  }
+
+  .cForm {
+    padding: 0.5rem 0;
+  }
+
+  .cForm p {
+    font-size: 0.75rem;
+  }
+
+  .cDetails {
+    flex-direction: column;
+    width: max-content;
+  }
+
+  .cContact,
+  .cSubmit {
+    flex-direction: column;
+  }
+
+  .cSubmitButton {
+    margin: 0 0 0 1rem;
+  }
+
+  .i {
+    width: 20rem;
+  }
 }

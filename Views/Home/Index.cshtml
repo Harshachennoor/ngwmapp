@@ -115,8 +115,8 @@
     </div>
 </div>
 <div class="weldingCC">
-    <h2 style="padding-bottom:1rem;">Welding Codes & Customization</h2>
-    <p style="margin-top: 0.5rem;">Your business is most important. We designed this application to support your
+    <h2>Welding Codes & Customization</h2>
+    <p>Your business is most important. We designed this application to support your
         requirements in any way
         possible. Adding welding codes from other countries, or customizing the range of qualifications to your
         needs, is part of our portfolio.</p>
@@ -159,7 +159,7 @@
 <div style="margin: 0.5rem 0;">
     <div class="solutionDiv">
         <h2>Solution to Industries</h2>
-        <h5>Global Weld Management (GWM) can be applied to all industries which utilize welding</h5>
+        <h6>Global Weld Management (GWM) can be applied to all industries which utilize welding</h6>
     </div>
     <div class="Container">
         <div id="movingContainer" class="industryDiv">
@@ -316,10 +316,9 @@
     let currentIndex = 0;
 
     function updateColors() {
-        // Reset all
+
         percentages.forEach(percentage => {
-    @* percentage.style.backgroundColor = ''; *@
-                percentage.style.color = '';
+            percentage.style.color = '';
         });
 
         // Apply new styles to current index
