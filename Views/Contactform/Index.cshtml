@@ -1,41 +1,111 @@
+<div class="printButtons">
+    <button class="btn btn-primary" onclick="printForm()" id="printV1">Print</button>
+</div>
+<div id="printingForm">
+    <div class="printHeaderDiv">
+        <div class="pCompanyTitle">
+            GLOBAL WELD MANAGEMENT
+        </div>
+        <div class="pCompanyAddress">
+            <p>Itasca,IL</p>
+            <p>60143, USA</p>
+            <p>+1 (847) 250-5240</p>
+        </div>
+    </div>
+    <div class="cformHeading">
+        <h2 style="font-weight:bold;">We would like to hear from you!</h2>
+        <p>Please contact us with your questions or any feedback</p>
+    </div>
+    <div class="formDetails">
+        <div class="Format">
+            <label>Name:</label>
+            <hr class="dotted-line">
+        </div>
+        <div class="Format">
+            <label>Company name:</label>
+            <hr class="dotted-line">
+        </div>
+        <div class="Format">
+            <label>Email address:</label>
+            <hr class="dotted-line">
+        </div>
+        <div class="Format">
+            <label>Phone number:</label>
+            <hr class="dotted-line">
+        </div>
+        <div class="Format">
+            <label>Your Subject:</label>
+            <hr class="dotted-line">
+        </div>
+        <div class="Format">
+            <label>Message:</label>
+            <hr class="dotted-line" style="margin-bottom: 0;">
+        </div>
+        <div>
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+            <hr class="dotted-line">
+
+        </div>
+    </div>
+    <div class="printFooterDiv">
+        <div class="footerWebsiteLink">
+            <img src="~/images/pwww.png" alt="webiste image"><a>https://www.gwmapp.com</a>
+        </div>
+        <div class="footerSocialLinks">
+            <a><img src="~/images/pfacebook.png" alt="facebook image">www.facebook.com/gwmapp</a>
+            <a><img src="~/images/ptwitter.png" alt="twitter image">www.twitter.com/gwmapp</a>
+            <a><img src="~/images/plinkedin.png" alt="linkedin image">www.linkedin.com/gwmapp</a>
+        </div>
+
+    </div>
+</div>
 <div class="cForm">
-    <form asp-action="SubmitForm" asp-controller="Contact" method="post">
+
+    <form asp-action="SubmitForm" method="post">
         <div class="cformHeading">
             <h2 style="font-weight:bold;">We would like to hear from you!</h2>
             <p>Please contact us with your questions or any feedback</p>
         </div>
         <div class="cDetails">
             <div class="form-group">
-                <label class="form-label">Name<span class="Asterix">*</span></label>
+                <label class="form-label">Name: <span class="Asterix">*</span>
+                </label>
                 <input class="form-control" placeholder="Enter your Name" required>
 
             </div>
             <div class="form-group">
-                <label class="form-label">Company<span class="Asterix">*</span></label>
+                <label class="form-label">Company: <span class="Asterix">*</span></label>
                 <input class="form-control" placeholder="Enter your Company name" required>
             </div>
         </div>
         <div class="cContact">
             <div class="form-group">
-                <label class="form-label">Email<span class="Asterix">*</span></label>
+                <label class="form-label">Email: <span class="Asterix">*</span></label>
                 <input class="form-control" placeholder="Enter your Email" required>
             </div>
             <div class="form-group">
-                <label class="form-label">Phone number<span class="Asterix">*</span></label>
+                <label class="form-label">Phone number: <span class="Asterix">*</span></label>
                 <input class="form-control" placeholder="Enter your contact number" required>
             </div>
         </div>
         <div class="i form-group">
-            <label class="form-label">Your Subject<span class="Asterix">*</span></label>
+            <label class="form-label">Your Subject: <span class="Asterix">*</span></label>
             <input class="form-control" placeholder="Subject" required>
         </div>
         <div class="i form-group">
-            <label class="form-label">Message<span class="Asterix">*</span></label>
+            <label class="form-label">Message: <span class="Asterix">*</span></label>
             <textarea class="form-control" placeholder="Enter your message" required></textarea>
         </div>
         <div class="cSubmit">
             <div class="cSubmitButton">
-                <button type="sumit" class="btn btn-primary">SEND MESSAGE</button>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
             </div>
             <div class="cAddress">
                 <h5>ADDRESS</h5>
@@ -47,3 +117,9 @@
         </div>
     </form>
 </div>
+<script>
+    function printForm() {
+        window.print();
+
+    }
+</script>

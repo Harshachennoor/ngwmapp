@@ -98,34 +98,34 @@
         </div>
     </div>
 </div>
-@* <script>
-const industryDiv = document.querySelector('.industryDiv');
-const divs = document.querySelectorAll('.industryDivs');
+<script>
+    const industryDiv = document.querySelector('.industryDiv');
+    const divs = document.querySelectorAll('.industryDivs');
 
-// Clone divs for a continuous loop effect
-divs.forEach(div => {
-const clone = div.cloneNode(true);
-industryDiv.appendChild(clone);
-});
+    // Clone divs for a continuous loop effect
+    divs.forEach(div => {
+        const clone = div.cloneNode(true);
+        industryDiv.appendChild(clone);
+    });
 
-let currentPosition = 0;
+    let currentPosition = 0;
 
-function animate() {
-// Move the divs to the left
-currentPosition -= 2; // Adjust speed as necessary
+    function animate() {
+        // Move the divs to the left
+        currentPosition -= 2; // Adjust speed as necessary
 
-// Apply the transformation
-industryDiv.style.transform = `translateX(${currentPosition}px)`;
+        // Apply the transformation
+        industryDiv.style.transform = `translateX(${currentPosition}px)`;
 
-// Reset position when scrolling beyond the original total width
-const totalWidth = industryDiv.offsetWidth / 2;
-if (Math.abs(currentPosition) >= totalWidth) {
-currentPosition += totalWidth;
-}
+        // Reset position when scrolling beyond the original total width
+        const totalWidth = industryDiv.offsetWidth / 2;
+        if (Math.abs(currentPosition) >= totalWidth) {
+            currentPosition += totalWidth;
+        }
 
-requestAnimationFrame(animate);
-}
+        requestAnimationFrame(animate);
+    }
 
-animate(); // Start the animation
+    animate(); // Start the animation
 
-</script> *@
+</script>

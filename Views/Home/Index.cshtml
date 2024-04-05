@@ -258,7 +258,7 @@
 </div>
 
 <div class="cForm">
-    <form asp-action="SubmitForm" asp-controller="Contact" method="post">
+    <form asp-action="SubmitForm" asp-controller="Contactform" method="post">
         <div class="cformHeading">
             <h2 style="font-weight:bold;">We would like to hear from you!</h2>
             <p>Please contact us with your questions or any feedback</p>
@@ -343,4 +343,35 @@
     function normalEffect(element) {
         element.querySelector('img').style.opacity = "1";
     }
+</script>
+<script>
+    const industryDiv = document.querySelector('.industryDiv');
+    const divs = document.querySelectorAll('.industryDivs');
+
+    // Clone divs for a continuous loop effect
+    divs.forEach(div => {
+        const clone = div.cloneNode(true);
+        industryDiv.appendChild(clone);
+    });
+
+    let currentPosition = 0;
+
+    function animate() {
+        // Move the divs to the left
+        currentPosition -= 1; // Adjust speed as necessary
+
+        // Apply the transformation
+        industryDiv.style.transform = `translateX(${currentPosition}px)`;
+
+        // Reset position when scrolling beyond the original total width
+        const totalWidth = industryDiv.offsetWidth / 2;
+        if (Math.abs(currentPosition) >= totalWidth) {
+            currentPosition += totalWidth;
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    animate(); // Start the animation
+
 </script>

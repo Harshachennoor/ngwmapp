@@ -121,6 +121,14 @@
       "PackagePath": "staticwebassets/images/enhanceClarity.png"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/eye.png",
+      "PackagePath": "staticwebassets/images/eye.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/eyeHide.png",
+      "PackagePath": "staticwebassets/images/eyeHide.png"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/google.svg",
       "PackagePath": "staticwebassets/images/google.svg"
     },
@@ -205,8 +213,24 @@
       "PackagePath": "staticwebassets/images/networkingAndTeams.webp"
     },
     {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/pfacebook.png",
+      "PackagePath": "staticwebassets/images/pfacebook.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/plinkedin.png",
+      "PackagePath": "staticwebassets/images/plinkedin.png"
+    },
+    {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/powerfulApp.png",
       "PackagePath": "staticwebassets/images/powerfulApp.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/ptwitter.png",
+      "PackagePath": "staticwebassets/images/ptwitter.png"
+    },
+    {
+      "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/pwww.png",
+      "PackagePath": "staticwebassets/images/pwww.png"
     },
     {
       "Id": "/Users/harshach/Desktop/ngwmapp/wwwroot/images/teamWork.png",

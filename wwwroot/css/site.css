@@ -622,8 +622,26 @@ button {
 }
 
 .form-group {
+  position: relative;
   padding: 0.25rem;
   width: 20rem;
+}
+
+.toggle-password {
+  position: absolute;
+  left: 17.85rem;
+  bottom: 1.35rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.toggle-password img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.password-input {
+  padding-right: 2rem;
 }
 
 .socialLogin {
@@ -672,6 +690,7 @@ button {
 .registrationDiv label span {
   font-size: 1rem;
 }
+
 
 /* *********** */
 
@@ -726,6 +745,110 @@ button {
   padding-left: 5px;
   color: #F00;
 }
+
+/* printing the contact form CSS  */
+.printButtons {
+  background-color: #F5F5F5;
+  text-align: end;
+  padding: 0.5rem;
+}
+
+.printHeaderDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 0.75rem;
+}
+
+.pCompanyTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #080474;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pCompanyAddress {
+  display: flex;
+  margin-left: 5rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+
+}
+
+.formDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.Format {
+  display: flex;
+}
+
+.Format label {
+  min-width: fit-content;
+}
+
+.dotted-line {
+  border: none;
+  /* Removes the default border */
+  border-top: 2px dotted #000;
+  /* Creates the dotted line */
+  color: #fff;
+  /* Legacy property for older browsers; should match the page's background */
+  background-color: #fff;
+  /* Ensures the old border doesn't show up */
+  width: 100%;
+  height: 1px;
+  padding: 0.5rem;
+  /* Sets the height of the line */
+  margin-top: 1rem;
+  /* Spacing above the line */
+  margin-bottom: 0.75rem;
+  /* Spacing below the line */
+}
+
+.printFooterDiv {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding: 0.5rem 0.25rem;
+}
+
+.footerWebsiteLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSocialLinks {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.printFooterDiv img {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: bold;
+  padding: 0.25rem;
+}
+
+#printingForm {
+  display: none;
+}
+
+/* **** */
 
 /* ********/
 
@@ -901,16 +1024,47 @@ button {
     width: max-content;
   }
 
-  .cContact,
-  .cSubmit {
+  .cContact {
     flex-direction: column;
   }
 
+  .cSubmit {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
   .cSubmitButton {
-    margin: 0 0 0 1rem;
+    margin: 0;
   }
 
   .i {
     width: 20rem;
+  }
+}
+
+@media print {
+  a {
+    color: #258cfb !important;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .mainHeader,
+  .menu,
+  .menuBar,
+  .searchLanguage,
+  .d-print-none,
+  #printV1,
+  #printV2,
+  .cForm {
+    display: none;
+  }
+
+  #printingForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     @* Main Header Top Bar *@
     <div class="mainHeader">
         <div id="company">
@@ -149,13 +148,13 @@
                         <a href="#">Chinese</a>
                         <a href="#">Danish</a>
                         <a href="#">Dutch</a>
-                        <a href="#">Telugu</a>
-                        <a href="#">Hindi</a>
-                        <a href="#">Marathi</a>
-                        <a href="#">Gujarathihibjhv</a>
+                        <a href="#">German</a>
+                        <a href="#">Greek</a>
+                        <a href="#">Portuguese</a>
                         <a href="#">Spanish</a>
                         <a href="#">French</a>
                         <a href="#">Itailian</a>
+                        <a href="#">Turkish</a>
                         <!-- Add more languages here -->
                     </div>
                 </div>
@@ -242,7 +241,6 @@
         </div>
     </div>
 
-
     <script>
         document.getElementById("collapseExpandBtn").addEventListener('click', function () {
             var menuBar = document.querySelector('.menuBar');
@@ -299,37 +297,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script>
-        const industryDiv = document.querySelector('.industryDiv');
-        const divs = document.querySelectorAll('.industryDivs');
 
-        // Clone divs for a continuous loop effect
-        divs.forEach(div => {
-            const clone = div.cloneNode(true);
-            industryDiv.appendChild(clone);
-        });
-
-        let currentPosition = 0;
-
-        function animate() {
-            // Move the divs to the left
-            currentPosition -= 1; // Adjust speed as necessary
-
-            // Apply the transformation
-            industryDiv.style.transform = `translateX(${currentPosition}px)`;
-
-            // Reset position when scrolling beyond the original total width
-            const totalWidth = industryDiv.offsetWidth / 2;
-            if (Math.abs(currentPosition) >= totalWidth) {
-                currentPosition += totalWidth;
-            }
-
-            requestAnimationFrame(animate);
-        }
-
-        animate(); // Start the animation
-
-    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

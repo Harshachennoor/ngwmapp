@@ -10,13 +10,21 @@
                 <div asp-validation-summary="All" class="text-danger">
                 </div>
                 <div class="form-group">
-                    <label asp-for="Email">Email</label>
-                    <input class="form-control" asp-for="Email">
+                    <label asp-for="Email" class="form-label">Email:<span class="Asterix">* </span></label>
+                    <input class="form-control" asp-for="Email" required>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Password">Password</label>
-                    <input class="form-control" type="password" asp-for="Password">
+                    <label asp-for="Password" class="form-label">Password:<span class="Asterix">* </span></label>
+                    <input class="form-control password-input" type="password" id="password" asp-for="Password"
+                        required>
+                    <span class="toggle-password" style="cursor: pointer;">
+                        <img src="/images/eye.png" alt="Toggle Password" id="togglePassword">
+                    </span>
                 </div>
+                @* <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input class="form-control" type="password" asp-for="Password">
+                </div> *@
                 <div class="form-group">
                     <div class="checkBox">
                         <label asp-for="RememberMe">
@@ -58,6 +66,18 @@
         </div>
 
     </div>
-
-
 </div>
+<script>
+    document.getElementById('togglePassword').addEventListener('click', function () {
+
+        const passwordInput = document.getElementById('password');
+        // Toggle the type attribute
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+
+        passwordInput.setAttribute('type', type);
+        // Toggle the icon
+        const newIconPath = passwordInput.getAttribute('type') === 'password' ? '/images/eye.png' : '/images/eyeHide.png';
+
+        this.setAttribute('src', newIconPath);
+    });
+</script>
