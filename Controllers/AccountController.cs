@@ -105,6 +105,7 @@ public class AccountController : Controller
 
                 _context.Customers.Add(c);
                 _context.SaveChanges();
+                ViewBag.CustomerName = c.FirstName;
                 return View("SuccessLogin");
             }
             else

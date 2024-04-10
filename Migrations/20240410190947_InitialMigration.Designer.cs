@@ -10,7 +10,7 @@ using ngwmapp;
 namespace ngwmapp.Migrations
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20240402221952_InitialMigration")]
+    [Migration("20240410190947_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
