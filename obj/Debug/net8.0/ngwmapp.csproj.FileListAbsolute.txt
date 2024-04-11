@@ -128,3 +128,5 @@
 /Users/harshach/Desktop/ngwmapp/obj/Debug/net8.0/ngwmapp.csproj.AssemblyReference.cache
 /Users/harshach/Desktop/ngwmapp/obj/Debug/net8.0/ngwmapp.csproj.CopyComplete
 /Users/harshach/Desktop/ngwmapp/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+/Users/harshach/Desktop/ngwmapp/bin/Debug/net8.0/customers.sqlite
+/Users/harshach/Desktop/ngwmapp/obj/Debug/net8.0/ngwmapp.sourcelink.json

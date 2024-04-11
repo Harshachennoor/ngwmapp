@@ -938,7 +938,7 @@ button {
   }
 
   .weldingCodes span {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
   }
 
   .credentialsDiv {
@@ -965,8 +965,21 @@ button {
     font-size: 14px;
   }
 
+  .homeImage {
+    display: none;
+  }
+
+  .card {
+    width: 22rem;
+    height: 14rem;
+  }
+
   .caImagesDiv {
     margin-left: 0;
+  }
+
+  .weldingCC p {
+    margin: 0 0.5rem;
   }
 
   .weldingCodes h2 {
@@ -979,6 +992,7 @@ button {
 
   .headingText {
     font-size: 1.25rem;
+    font-weight: bold;
   }
 
   .imageArea * {
