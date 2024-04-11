@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ngwmapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fe1c3142565a43a47d8597ea8a522c2a5d3efa4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12ffdf64c4b74ea023b3d59706f5f3e5e49066c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ngwmapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ngwmapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
