@@ -44,7 +44,7 @@
                     </a>
                 </li>
                 <li>
-                    <a asp-action="Index" asp-asp-controller="Contactform">
+                    <a asp-action="Index" asp-controller="Contactform">
                         <div class="contactIcon"><i class="fa-solid fa-file-lines"></i>
                         </div>
                         <div class="menuText contactText">Contact Us</div>
@@ -288,6 +288,7 @@
         function performSearch() {
             var query = document.getElementById('searchBar').value;
             alert('Searching for: ' + query);
+            document.getElementById('searchBar').value = "";
             // Implement the logic to perform the search or redirect to the search results page
             // For example, if you're using a server-side language like PHP:
             // window.location.href = '/search.php?query=' + encodeURIComponent(query);
