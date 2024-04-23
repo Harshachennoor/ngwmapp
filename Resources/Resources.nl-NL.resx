@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	 <data name="menuOne" xml:space="preserve">
+    <value>thuis</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>Log in</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>Over GWM</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>Selecteer Taal</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>Engels</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>Chinese</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>Deens</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>Nederlands</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>Duits</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>Grieks</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>Portugees</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>Spaans</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>Frans</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>Italiaans</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>Turks</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+		<value>Centrale applicatie</value>
+	</data>
+	<data name="CAPara" xml:space="preserve">
+		<value>Het beheren van meerdere productielocaties, binnen een bedrijf of met supply chain management, was nog nooit zo eenvoudig. Met een multi-site licentie kunt u definiëren hoeveel van de locaties in een centraal beheer worden gegroepeerd of onafhankelijk opereren. Centraal beheer biedt de mogelijkheid om ervaring te benutten, goedkeuringen te delen en een gezamenlijke reeks bibliotheekingangen te beheren. Hoewel elk lid van de centrale administratie zijn locatiegegevens deelt, blijft het eigendom van de lasgoedkeuringen in handen van de initiatiefnemende locatie.</value>
+	</data>
+  <data name="CAOneSub" xml:space="preserve">
+    <value>VOORDELEN</value>
+</data>
+<data name="CAOneSubOne" xml:space="preserve">
+    <value>Centraal Kwaliteitsbeheer</value>
+</data>
+<data name="CAOneSubTwo" xml:space="preserve">
+    <value>Gedeelde Bibliotheken</value>
+</data>
+<data name="CAOneSubThree" xml:space="preserve">
+    <value>Gezamenlijke Goedkeuring van Lasprocessen</value>
+</data>
+<data name="CAOneSubFour" xml:space="preserve">
+    <value>Onafhankelijk Sitebeheer</value>
+</data>
+<data name="CATwoSub" xml:space="preserve">
+    <value>VERGROOT DUIDELIJKHEID</value>
+</data>
+<data name="CATwoSubOne" xml:space="preserve">
+    <value>Teamwerk zonder Grenzen</value>
+</data>
+<data name="CATwoSubTwo" xml:space="preserve">
+    <value>Leverancierscontrole voor Basismateriaal &amp; Vulmateriaal</value>
+</data>
+<data name="CATwoSubThree" xml:space="preserve">
+    <value>Centralisatie van Goedkeuringsinstanties</value>
+</data>
+<data name="CATwoSubFour" xml:space="preserve">
+    <value>Verhoogd Klantenvertrouwen</value>
+</data>
+<data name="CAThreeSub" xml:space="preserve">
+    <value>NETWERKEN &amp; TEAMS</value>
+</data>
+<data name="CAThreeSubOne" xml:space="preserve">
+    <value>Integratie van Experts van Meerdere Locaties</value>
+</data>
+<data name="CAThreeSubTwo" xml:space="preserve">
+    <value>Gebruikersbeheer</value>
+</data>
+<data name="CAThreeSubThree" xml:space="preserve">
+    <value>Bedrijfsidentiteit</value>
+</data>
+<data name="CAThreeSubFour" xml:space="preserve">
+    <value>Controle van Normen</value>
+</data>
+<data name="CAFourSub" xml:space="preserve">
+    <value>TEAMWERK</value>
+</data>
+<data name="CAFourSubOne" xml:space="preserve">
+    <value>Centraal Beheer &amp; Administratie</value>
+</data>
+<data name="CAFourSubTwo" xml:space="preserve">
+    <value>Gezamenlijke Gegevensverzameling</value>
+</data>
+<data name="CAFourSubThree" xml:space="preserve">
+    <value>Wereldwijde Kennisdeling</value>
+</data>
+<data name="CAFourSubFour" xml:space="preserve">
+    <value>All-in-één Gereedschap</value>
+</data>
+<data name="resultTitle" xml:space="preserve">
+<value>Behaal resultaten met onze SaaS-toepassing</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>Verhoog de verkoop</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>Stimuleer klanten om zich bij uw team aan te sluiten</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>Verlaag reis- en kosten</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>Verminder de frequente bezoeken aan de site</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>Verminder projecttijd</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>Voeg experts toe onderweg</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>Verbeter de duidelijkheid</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>Grenzeloze samenwerking met taalopties</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>Een Krachtige Toepassing</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>De wereld wordt steeds meer met elkaar verbonden en brengt experts van over de hele wereld samen. Projecthelderheid moet effectief worden beheerd over internationale grenzen heen, en taalbarrières moeten een niet-kritieke factor worden. Alle projecten moeten zich richten op oplossingen die een kosteneffectieve conversie van engineering eisen, code compliance, kwaliteitsdoelstellingen, besparingen en tijdlijnen ondersteunen die de klant tevredenstellen.</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>Lassen Codes &amp; Aanpassing</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>Uw bedrijf is het belangrijkst. We hebben deze applicatie ontworpen om uw vereisten op elke mogelijke manier te ondersteunen. Het toevoegen van lascodes uit andere landen, of het aanpassen van het bereik van kwalificaties aan uw behoeften, maakt deel uit van ons portfolio.</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>American Society of Mechanical Engineers</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>American Welding Society</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>Inclusief EN ISO-edities goedgekeurd door CEN</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>Nieuw</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>We implementeren uw las specificatie</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>Voorlopige WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>Lasprocedurekwalificatiegegevens</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>Lasprocedure specificatie</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>Lasser Prestatie Kwalificatiegegevens</value>
+</data>
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>Een applicatie met wereldwijde toegankelijkheid en wereldwijde samenwerking</value>
+	</data>
+
+  <data name="footerOneSub" xml:space="preserve">
+    <value>Klantenservice</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>Annulering &amp; Wijziging</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>Voorwaarden &amp; Voorwaarden</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>Privacybeleid</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>Binnen GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>Over GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>Waarom GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>Carrières</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>Mijn rekening</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>Aanmelden</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>Registreren/aankoop</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>Steun</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>Veel Gestelde Vragen</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>Hulpvolle informatie</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>Opleiding</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>Neem contact met ons op</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>Alle rechten voorbehouden. Onze Algemene Voorwaarden zijn van toepassing!</value>
+  </data>
+</root>
+

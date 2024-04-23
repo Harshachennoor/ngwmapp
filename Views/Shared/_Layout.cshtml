@@ -33,21 +33,21 @@
                     <a asp-action="Index" asp-controller="Home">
                         <div class="homeIcon"><i class="fa-solid fa-house"></i>
                         </div>
-                        <div class="menuText homeText">Home</div>
+                        <div class="menuText homeText">@ngwmapp.Resources.Resources.menuOne</div>
                     </a>
                 </li>
                 <li>
                     <a asp-controller="Account" asp-action="LoginForm">
                         <div class="loginIcon"><i class="fa-solid fa-user"></i>
                         </div>
-                        <div class="menuText loginText">Login</div>
+                        <div class="menuText loginText">@ngwmapp.Resources.Resources.menuTwo</div>
                     </a>
                 </li>
                 <li>
                     <a asp-action="Index" asp-controller="Contactform">
                         <div class="contactIcon"><i class="fa-solid fa-file-lines"></i>
                         </div>
-                        <div class="menuText contactText">Contact Us</div>
+                        <div class="menuText contactText">@ngwmapp.Resources.Resources.menuThree</div>
                     </a>
                 </li>
                 <li>
@@ -55,7 +55,7 @@
                         <div class="aboutIcon">
                             <i class="fa-solid fa-circle-question"></i>
                         </div>
-                        <div class="menuText aboutText">About GVM</div>
+                        <div class="menuText aboutText">@ngwmapp.Resources.Resources.menuFour</div>
                     </a>
                 </li>
             </ul>
@@ -73,21 +73,21 @@
                         <a asp-action="Index" asp-controller="Home">
                             <div class="homeIcon"><i class="fa-solid fa-house"></i>
                             </div>
-                            <div class="menuText homeText">Home</div>
+                            <div class="menuText homeText">@ngwmapp.Resources.Resources.menuOne</div>
                         </a>
                     </li>
                     <li>
                         <a asp-action="LoginForm" asp-controller="Account">
                             <div class="loginIcon"><i class="fa-solid fa-user"></i>
                             </div>
-                            <div class="menuText loginText">Login</div>
+                            <div class="menuText loginText">@ngwmapp.Resources.Resources.menuTwo</div>
                         </a>
                     </li>
                     <li>
                         <a asp-action="Index" asp-controller="Contactform">
                             <div class="contactIcon"><i class="fa-solid fa-file-lines"></i>
                             </div>
-                            <div class="menuText contactText">Contact Us</div>
+                            <div class="menuText contactText">@ngwmapp.Resources.Resources.menuThree</div>
                         </a>
                     </li>
                     <li>
@@ -95,7 +95,7 @@
                             <div class="aboutIcon">
                                 <i class="fa-solid fa-circle-question"></i>
                             </div>
-                            <div class="menuText aboutText">About GVM</div>
+                            <div class="menuText aboutText">@ngwmapp.Resources.Resources.menuFour</div>
                         </a>
                     </li>
                 </ul>
@@ -142,20 +142,31 @@
                     </button>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">Select Language <i class="fa-solid fa-caret-down"></i></button>
+                    <button class="dropbtn">@ngwmapp.Resources.Resources.languageSelection <i
+                            class="fa-solid fa-caret-down"></i></button>
                     <div class="dropdown-content" id="myDropdown">
-                        <a href="#">English</a>
-                        <a href="#">Chinese</a>
-                        <a href="#">Danish</a>
-                        <a href="#">Dutch</a>
-                        <a href="#">German</a>
-                        <a href="#">Greek</a>
-                        <a href="#">Portuguese</a>
-                        <a href="#">Spanish</a>
-                        <a href="#">French</a>
-                        <a href="#">Itailian</a>
-                        <a href="#">Turkish</a>
-                        <!-- Add more languages here -->
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="en-US"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageOne</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="zh-CN"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageTwo</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="da-DK"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageThree</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="nl-NL"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageFour</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="de-DE"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageFive</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="el-GR"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageSix</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="pt-BR"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageSeven</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="es-ES"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageEight</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="fr-FR"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageNine</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="it-IT"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageTen</a>
+                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="tr-TR"
+                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageEleven</a>
                     </div>
                 </div>
             </div>
@@ -170,8 +181,8 @@
                             <div class="col-md-12">
                                 <div class="widget">
 
-                                    <div class="widget-title">Global Weld Management (GWM) -- An application with global
-                                        accessibility and global collaboration --</div>
+                                    <div class="widget-title">Global Weld Management (GWM) --
+                                        <span>@ngwmapp.Resources.Resources.footerTitle </span>--</div>
                                     <hr>
                                 </div>
                             </div>
@@ -179,47 +190,69 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Customer Care
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                                @ngwmapp.Resources.Resources.footerOneSub
                                             </div>
                                             <ul class="list">
-                                                <li><a href="#">Cancelation &amp; Change</a></li>
-                                                <li><a href="/Home/TermsAndConditions">Terms &amp; Conditions</a></li>
-                                                <li><a href="/Home/PrivacyPolicy">Privacy Policy</a></li>
-                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerOneSubOne</a></li>
+                                                <li><a
+                                                        href="/Home/TermsAndConditions">@ngwmapp.Resources.Resources.footerOneSubTwo</a>
+                                                </li>
+                                                <li><a
+                                                        href="/Home/PrivacyPolicy">@ngwmapp.Resources.Resources.footerOneSubThree</a>
+                                                </li>
+                                                <li><a
+                                                        href="/Home/Contact">@ngwmapp.Resources.Resources.footerContactUsTag</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Insite GWM</div>
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                                @ngwmapp.Resources.Resources.footerTwoSub</div>
                                             <ul class="list">
-                                                <li><a href="/Home/About">About GWM</a></li>
-                                                <li><a href="#">Why GWM</a></li>
-                                                <li><a href="#">Careers</a></li>
-                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                                <li><a
+                                                        href="/Home/About">@ngwmapp.Resources.Resources.footerTwoSubOne</a>
+                                                </li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerTwoSubTwo</a></li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerTwoSubThree</a></li>
+                                                <li><a
+                                                        href="/Home/Contact">@ngwmapp.Resources.Resources.footerContactUsTag</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
 
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">My Account</div>
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                                @ngwmapp.Resources.Resources.footerThreeSub</div>
                                             <ul class="list">
-                                                <li><a href="/Account/Login">Sign In</a></li>
-                                                <li><a href="/Home/Pricing">Register/Purchase</a></li>
-                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                                <li><a
+                                                        href="/Account/Login">@ngwmapp.Resources.Resources.footerThreeSubOne</a>
+                                                </li>
+                                                <li><a
+                                                        href="/Home/Pricing">@ngwmapp.Resources.Resources.footerThreeSubTwo</a>
+                                                </li>
+                                                <li><a
+                                                        href="/Home/Contact">@ngwmapp.Resources.Resources.footerContactUsTag</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">Support</div>
+                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                                @ngwmapp.Resources.Resources.footerFourSub</div>
                                             <ul class="list">
-                                                <li><a href="#">FAQs</a></li>
-                                                <li><a href="#">Helpful Information</a></li>
-                                                <li><a href="#">Training</a></li>
-                                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerFourSubOne</a></li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerFourSubTwo</a></li>
+                                                <li><a href="#">@ngwmapp.Resources.Resources.footerFourSubThree</a></li>
+                                                <li><a
+                                                        href="/Home/Contact">@ngwmapp.Resources.Resources.footerContactUsTag</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -232,8 +265,8 @@
                 </div>
                 <div class="copyright-content">
                     <div class="container" style="padding-top: 2rem;">
-                        <div class="copyright-text text-center">© 2024 ECE Global. All Rights Reserved. Our Terms &amp;
-                            Conditions apply!</div>
+                        <div class="copyright-text text-center">© 2024 ECE Global.
+                            <span>@ngwmapp.Resources.Resources.footerEnd</span></div>
                     </div>
                 </div>
             </footer>

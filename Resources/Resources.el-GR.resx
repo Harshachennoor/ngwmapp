@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="menuOne" xml:space="preserve">
+    <value>Σπίτι</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>Σύνδεση</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>Επικοινωνία</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>Σχετικά με το GWM</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>Επιλέξτε γλώσσα</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>Αγγλικά</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>κινέζικα</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>δανικός</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>Ολλανδικά</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>Γερμανός</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>Ελληνικά</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>Πορτογαλικά</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>Ισπανικά</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>γαλλική γλώσσα</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>ιταλικός</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>τούρκικος</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+		<value>Κεντρική Εφαρμογή</value>
+	</data>
+	<data name="CAPara" xml:space="preserve">
+		<value>Η διαχείριση πολλών τοποθεσιών παραγωγής, είτε στο πλαίσιο μιας εταιρείας είτε με τη διαχείριση της εφοδιαστικής αλυσίδας, δεν ήταν ποτέ ευκολότερη. Με μια άδεια πολλαπλών τοποθεσιών, μπορείτε να ορίσετε πόσες από τις τοποθεσίες θα ομαδοποιούνται σε μια κεντρική διοίκηση ή θα λειτουργούν ανεξάρτητα. Η κεντρική διοίκηση παρέχει την ευκαιρία να αξιοποιήσει την εμπειρία, να μοιραστεί εγκρίσεις και να διαχειριστεί ένα κοινό σύνολο εισόδων βιβλιοθήκης. Παρόλο που κάθε μέλος της κεντρικής διοίκησης μοιράζεται τις πληροφορίες του ιστότοπού του, η ιδιοκτησία των εγκρίσεων συγκόλλησης παραμένει υπό τον έλεγχο της τοποθεσίας εκκίνησης.</value>
+	</data>
+  <data name="CAOneSub" xml:space="preserve">
+    <value>ΠΛΕΟΝΕΚΤΗΜΑΤΑ</value>
+</data>
+<data name="CAOneSubOne" xml:space="preserve">
+    <value>Κεντρική Διαχείριση Ποιότητας</value>
+</data>
+<data name="CAOneSubTwo" xml:space="preserve">
+    <value>Κοινές Βιβλιοθήκες</value>
+</data>
+<data name="CAOneSubThree" xml:space="preserve">
+    <value>Κοινή Έγκριση Διαδικασίας Συγκόλλησης</value>
+</data>
+<data name="CAOneSubFour" xml:space="preserve">
+    <value>Ανεξάρτητη Διαχείριση Τοποθεσίας</value>
+</data>
+<data name="CATwoSub" xml:space="preserve">
+    <value>ΕΝΙΣΧΥΣΗ ΣΑΦΗΝΕΙΑΣ</value>
+</data>
+<data name="CATwoSubOne" xml:space="preserve">
+    <value>Ομαδική Εργασία χωρίς Σύνορα</value>
+</data>
+<data name="CATwoSubTwo" xml:space="preserve">
+    <value>Έλεγχος Προμηθευτή για Βάση &amp; Προσοχή Υλικού</value>
+</data>
+<data name="CATwoSubThree" xml:space="preserve">
+    <value>Κεντρικοποίηση Υπηρεσιών Έγκρισης</value>
+</data>
+<data name="CATwoSubFour" xml:space="preserve">
+    <value>Αύξηση Εμπιστοσύνης Πελατών</value>
+</data>
+<data name="CAThreeSub" xml:space="preserve">
+    <value>ΔΙΚΤΥΩΣΗ &amp; ΟΜΑΔΕΣ</value>
+</data>
+<data name="CAThreeSubOne" xml:space="preserve">
+    <value>Ολοκληρωμένη Ενσωμάτωση Εμπειρογνωμόνων Πολλών Τοποθεσιών</value>
+</data>
+<data name="CAThreeSubTwo" xml:space="preserve">
+    <value>Διαχείριση Χρηστών</value>
+</data>
+<data name="CAThreeSubThree" xml:space="preserve">
+    <value>Εταιρική Ταυτότητα</value>
+</data>
+<data name="CAThreeSubFour" xml:space="preserve">
+    <value>Έλεγχος Προτύπων</value>
+</data>
+<data name="CAFourSub" xml:space="preserve">
+    <value>ΟΜΑΔΙΚΗ ΕΡΓΑΣΙΑ</value>
+</data>
+<data name="CAFourSubOne" xml:space="preserve">
+    <value>Κεντρική Διαχείριση &amp; Διαχείριση Διαχείρισης</value>
+</data>
+<data name="CAFourSubTwo" xml:space="preserve">
+    <value>Συλλογική Καταγραφή Δεδομένων</value>
+</data>
+<data name="CAFourSubThree" xml:space="preserve">
+    <value>Κοινοποίηση Γνώσης Παγκοσμίως</value>
+</data>
+<data name="CAFourSubFour" xml:space="preserve">
+    <value>Όλα-σε-Ένα Εργαλείο</value>
+</data>
+<data name="resultTitle" xml:space="preserve">
+<value>Επιτύχετε αποτελέσματα με την εφαρμογή μας SaaS</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>Αυξήστε τις πωλήσεις</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>Εμπνεύστε τους πελάτες να ενταχθούν στην ομάδα σας</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>Μειώστε τα ταξίδια και το κόστος</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>Μειώστε τις συχνές επισκέψεις στον τόπο</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>Μείωση του χρόνου έργου</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>Προσθέστε ειδικούς επί τόπου</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>Ενισχύστε την σαφήνεια</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>Ασύνορα συνεργασία με επιλογές γλώσσας</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>Eine Leistungsstarke Anwendung</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>Die Welt wird zunehmend vernetzter und bringt Experten aus der ganzen Welt zusammen. Die Projekttransparenz muss effektiv über internationale Grenzen hinweg verwaltet werden, und Sprachbarrieren dürfen keine kritische Rolle spielen. Alle Projekte sollten sich auf Lösungen konzentrieren, die eine kosteneffektive Umwandlung von Ingenieur-Anforderungen, Code-Konformität, Qualitätszielen, Einsparungen und Zeitplänen ermöglichen, die den Kunden zufriedenstellen.</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>Κωδικοί Συγκόλλησης &amp; Προσαρμογή</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>Η επιχείρησή σας είναι πολύ σημαντική. Σχεδιάσαμε αυτήν την εφαρμογή για να υποστηρίξουμε τις απαιτήσεις σας με κάθε δυνατό τρόπο. Η προσθήκη κωδικών συγκόλλησης από άλλες χώρες ή η προσαρμογή της εύρους προσόντων στις ανάγκες σας είναι μέρος του χαρτοφυλακίου μας.</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>Αμερικανική Εταιρεία Μηχανολόγων Μηχανικών</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>Αμερικανική Εταιρεία Συγκόλλησης</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>Συμπεριλαμβανομένων των έκδοσης EN ISO που έχουν εγκριθεί από την CEN</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>Νέο</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>Εφαρμόζουμε την προδιαγραφή συγκόλλησής σας</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>Προκαταρκτική WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>Αρχεία Πιστοποίησης Προσόντων Συγκόλλησης</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>Προδιαγραφή Τεχνικής Συγκόλλησης</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>Αρχεία Πιστοποίησης Επίδοσης Συγκολλητή</value>
+</data>
+
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>Μια εφαρμογή με παγκόσμια προσβασιμότητα και παγκόσμια συνεργασία</value>
+	</data>
+
+  <data name="footerOneSub" xml:space="preserve">
+    <value>Εξυπηρέτηση πελατών</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>Ακύρωση &amp; Αλλαγή</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>Όροι &amp; Συνθήκες</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>Πολιτική Απορρήτου</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>Στο χώρο GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>Σχετικά με GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>Γιατί GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>Καριέρες</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>Ο λογαριασμός μου</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>Συνδεθείτε</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>Εγγραφή/Αγορά</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>Υποστήριξη</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>Συχνές ερωτήσεις</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>Χρήσιμες Πληροφορίες</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>Εκπαίδευση</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>Επικοινωνήστε μαζί μας</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>Ολα τα δικαιώματα διατηρούνται. Οι όροι μας &amp; Ισχύουν προϋποθέσεις!</value>
+  </data>
+</root>
+

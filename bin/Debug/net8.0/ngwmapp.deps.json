@@ -17,6 +17,41 @@
         },
         "runtime": {
           "ngwmapp.dll": {}
+        },
+        "resources": {
+          "da-DK/ngwmapp.resources.dll": {
+            "locale": "da-DK"
+          },
+          "de-DE/ngwmapp.resources.dll": {
+            "locale": "de-DE"
+          },
+          "el-GR/ngwmapp.resources.dll": {
+            "locale": "el-GR"
+          },
+          "en-US/ngwmapp.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-ES/ngwmapp.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fr-FR/ngwmapp.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "it-IT/ngwmapp.resources.dll": {
+            "locale": "it-IT"
+          },
+          "nl-NL/ngwmapp.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "pt-BR/ngwmapp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "tr-TR/ngwmapp.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "zh-CN/ngwmapp.resources.dll": {
+            "locale": "zh-CN"
+          }
         }
       },
       "BCrypt.Net-Next/4.0.3": {

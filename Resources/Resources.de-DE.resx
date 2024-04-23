@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="menuOne" xml:space="preserve">
+    <value>heim</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>Anmeldung</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>Kontaktiere uns</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>Über GWM</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>Sprache auswählen</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>Englisch</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>Chinesisch</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>dänisch</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>Niederländisch</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>Deutsch</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>griechisch</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>Portugiesisch</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>Spanisch</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>Französisch</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>Italienisch</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>Türkisch</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+		<value>Zentrale Anwendung</value>
+	</data>
+	<data name="CAPara" xml:space="preserve">
+		<value>Die Verwaltung mehrerer Produktionsstandorte, sei es innerhalb eines Unternehmens oder mit dem Supply Chain Management, war noch nie so einfach. Mit einer Multi-Site-Lizenz können Sie festlegen, wie viele Standorte in einer zentralen Verwaltung zusammengefasst oder unabhängig voneinander betrieben werden sollen. Die zentrale Verwaltung bietet die Möglichkeit, Erfahrungen zu nutzen, Genehmigungen auszutauschen und einen gemeinsamen Satz von Bibliothekseingängen zu verwalten. Auch wenn jedes Mitglied der zentralen Verwaltung seine Standortinformationen weitergibt, liegt der Eigentümer der Schweißgenehmigungen weiterhin beim initiierenden Standort.</value>
+	</data>
+    <data name="CAOneSub" xml:space="preserve">
+    <value>VORTEILE</value>
+  </data>
+  <data name="CAOneSubOne" xml:space="preserve">
+    <value>Zentrales Qualitätsmanagement</value>
+  </data>
+  <data name="CAOneSubTwo" xml:space="preserve">
+    <value>Gemeinsame Bibliotheken</value>
+  </data>
+  <data name="CAOneSubThree" xml:space="preserve">
+    <value>Gemeinsame Schweißprozessfreigabe</value>
+  </data>
+  <data name="CAOneSubFour" xml:space="preserve">
+    <value>Unabhängige Standortverwaltung</value>
+  </data>
+  <data name="CATwoSub" xml:space="preserve">
+    <value>KLARHEIT VERBESSERN</value>
+  </data>
+  <data name="CATwoSubOne" xml:space="preserve">
+    <value>Teamwork ohne Grenzen</value>
+  </data>
+  <data name="CATwoSubTwo" xml:space="preserve">
+    <value>Lieferantenkontrolle für Basis- und Füllmaterial</value>
+  </data>
+  <data name="CATwoSubThree" xml:space="preserve">
+    <value>Zentralisierung von Genehmigungsbehörden</value>
+  </data>
+  <data name="CATwoSubFour" xml:space="preserve">
+    <value>Erhöhtes Kundenvertrauen</value>
+  </data>
+  <data name="CAThreeSub" xml:space="preserve">
+    <value>VERNETZUNG &amp; TEAMS</value>
+  </data>
+  <data name="CAThreeSubOne" xml:space="preserve">
+    <value>Integration von Experten aus mehreren Standorten</value>
+  </data>
+  <data name="CAThreeSubTwo" xml:space="preserve">
+    <value>Nutzermanagement</value>
+  </data>
+  <data name="CAThreeSubThree" xml:space="preserve">
+    <value>Corporate Identity</value>
+  </data>
+  <data name="CAThreeSubFour" xml:space="preserve">
+    <value>Standardkontrolle</value>
+  </data>
+  <data name="CAFourSub" xml:space="preserve">
+    <value>TEAMARBEIT</value>
+  </data>
+  <data name="CAFourSubOne" xml:space="preserve">
+    <value>Zentrale Verwaltung &amp; Administration</value>
+  </data>
+  <data name="CAFourSubTwo" xml:space="preserve">
+    <value>Kollektive Datenerfassung</value>
+  </data>
+  <data name="CAFourSubThree" xml:space="preserve">
+    <value>Globaler Wissensaustausch</value>
+  </data>
+  <data name="CAFourSubFour" xml:space="preserve">
+    <value>All-in-One-Werkzeug</value>
+  </data> 
+  <data name="resultTitle" xml:space="preserve">
+<value>Ergebnisse mit unserer SaaS-Anwendung steigern</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>Umsatz steigern</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>Kunden dazu inspirieren, Ihrem Team beizutreten</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>Reise- und Kosten senken</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>Häufige Vor-Ort-Besuche reduzieren</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>Projektzeit verkürzen</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>Experten unterwegs hinzufügen</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>Klarheit verbessern</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>Grenzenlose Teamarbeit mit Sprachoptionen</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>Eine Leistungsstarke Anwendung</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>Die Welt wird zunehmend vernetzter und bringt Experten aus der ganzen Welt zusammen. Die Projekttransparenz muss effektiv über internationale Grenzen hinweg verwaltet werden, und Sprachbarrieren dürfen keine kritische Rolle spielen. Alle Projekte sollten sich auf Lösungen konzentrieren, die eine kosteneffektive Umwandlung von Ingenieur-Anforderungen, Code-Konformität, Qualitätszielen, Einsparungen und Zeitplänen ermöglichen, die den Kunden zufriedenstellen.</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>Schweißcodes &amp; Anpassung</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>Ihr Unternehmen steht an erster Stelle. Wir haben diese Anwendung entwickelt, um Ihre Anforderungen auf jede erdenkliche Weise zu unterstützen. Das Hinzufügen von Schweißcodes aus anderen Ländern oder die Anpassung des Qualifikationsbereichs an Ihre Bedürfnisse gehören zu unserem Portfolio.</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>American Society of Mechanical Engineers</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>American Welding Society</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>Einschließlich EN ISO-Ausgaben, die durch CEN genehmigt wurden</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>Neu</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>Wir setzen Ihre Schweißspezifikation um</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>Vorbereitende WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>Schweißverfahrensqualifikationsaufzeichnungen</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>Schweißverfahrensspezifikation</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>Schweißerleistungsqualifikationsaufzeichnungen</value>
+</data>
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>Eine Anwendung mit globaler Zugänglichkeit und globaler Zusammenarbeit</value>
+	</data>
+
+  <data name="footerOneSub" xml:space="preserve">
+    <value>Kundendienst</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>Stornierung &amp; Ändern</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>Bedingungen &amp; Bedingungen</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>Datenschutzrichtlinie</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>Insite GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>Um GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>Warum GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>Karriere</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>Mein Konto</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>Registrieren/kaufen</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>Unterstützung</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>FAQs</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>Hilfreiche Information</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>Ausbildung</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>Kontaktiere uns</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>Alle Rechte vorbehalten. Unsere Allgemeinen Geschäftsbedingungen &amp; Bedingungen gelten!</value>
+  </data>
+</root>
+

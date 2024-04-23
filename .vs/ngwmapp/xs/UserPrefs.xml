@@ -1,22 +1,42 @@
 ﻿<Properties StartupConfiguration="{B7CDE3E3-B869-41BB-9506-AE0F556E9BDF}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/Resources.resx">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/8.0.101/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets" />
+      <File FileName="Resources/Resources.en-US.Designer.cs" />
+      <File FileName="Resources/Resources.es-ES.Designer.cs" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Resources/Resources.de-DE.Designer.cs" />
+      <File FileName="Resources/Resources.da-DK.Designer.cs" />
+      <File FileName="Resources/Resources.el-GR.Designer.cs" />
+      <File FileName="Resources/Resources.fr-FR.Designer.cs" />
+      <File FileName="Resources/Resources.it-IT.Designer.cs" />
+      <File FileName="Resources/Resources.nl-NL.Designer.cs" />
+      <File FileName="Resources/Resources.pt-BR.Designer.cs" />
+      <File FileName="Resources/Resources.tr-TR.Designer.cs" />
+      <File FileName="Resources/Resources.zh-CN.Designer.cs" />
+      <File FileName="Resources/Resources.resx" Line="53" Column="2" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ngwmapp">
             <Node name="ngwmapp">
-              <Node name="customers.sqlite" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Resources.resx" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ngwmapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ngwmapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

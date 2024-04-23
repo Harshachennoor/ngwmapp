@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="menuOne" xml:space="preserve">
+    <value>Ev</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>Giriş yapmak</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>Bize Ulaşın</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>GWM Hakkında</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>Dil Seçin</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>İngilizce</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>Çince</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>Danimarka</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>Felemenkçe</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>Almanca</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>Yunan</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>Portekizce</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>İspanyol</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>Fransızca</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>İtalyan</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>Türkçe</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+		<value>Merkezi Uygulama</value>
+	</data>
+	<data name="CAPara" xml:space="preserve">
+		<value>Bir şirket içinde veya tedarik zinciri yönetimiyle birden fazla üretim tesisini yönetmek hiç bu kadar kolay olmamıştı. Çoklu site lisansı ile lokasyonlardan kaçının merkezi yönetimde gruplanacağını veya bağımsız olarak çalışacağını tanımlayabilirsiniz. Merkezi yönetim, deneyimlerden yararlanma, onayları paylaşma ve ortak kütüphane girişlerini yönetme fırsatı sağlar. Her merkezi yönetim üyesi saha bilgilerini paylaşsa da kaynak onaylarının mülkiyeti, başlatan tesisin kontrolünde kalır.</value>
+	</data>
+  <data name="CAOneSub" xml:space="preserve">
+    <value>AVANTAJLAR</value>
+</data>
+<data name="CAOneSubOne" xml:space="preserve">
+    <value>Merkezi Kalite Yönetimi</value>
+</data>
+<data name="CAOneSubTwo" xml:space="preserve">
+    <value>Paylaşılan Kütüphaneler</value>
+</data>
+<data name="CAOneSubThree" xml:space="preserve">
+    <value>Ortak Kaynak Onayı</value>
+</data>
+<data name="CAOneSubFour" xml:space="preserve">
+    <value>Bağımsız Site Yönetimi</value>
+</data>
+<data name="CATwoSub" xml:space="preserve">
+    <value>NETLİĞİ ARTTIRMAK</value>
+</data>
+<data name="CATwoSubOne" xml:space="preserve">
+    <value>Sınırlar Arası Takım Çalışması</value>
+</data>
+<data name="CATwoSubTwo" xml:space="preserve">
+    <value>Taban ve Dolgu Malzemesi için Tedarikçi Kontrolü</value>
+</data>
+<data name="CATwoSubThree" xml:space="preserve">
+    <value>Onay Kurumlarını Merkezileştirme</value>
+</data>
+<data name="CATwoSubFour" xml:space="preserve">
+    <value>Müşteri Güvenini Arttırma</value>
+</data>
+<data name="CAThreeSub" xml:space="preserve">
+    <value>AĞ VE EKİPLER</value>
+</data>
+<data name="CAThreeSubOne" xml:space="preserve">
+    <value>Çok Site Uzmanı Entegrasyonu</value>
+</data>
+<data name="CAThreeSubTwo" xml:space="preserve">
+    <value>Kullanıcı Yönetimi</value>
+</data>
+<data name="CAThreeSubThree" xml:space="preserve">
+    <value>Kurumsal Kimlik</value>
+</data>
+<data name="CAThreeSubFour" xml:space="preserve">
+    <value>Standartların Kontrolü</value>
+</data>
+<data name="CAFourSub" xml:space="preserve">
+    <value>TAKIM ÇALIŞMASI</value>
+</data>
+<data name="CAFourSubOne" xml:space="preserve">
+    <value>Merkezi Yönetim ve İdare</value>
+</data>
+<data name="CAFourSubTwo" xml:space="preserve">
+    <value>Toplu Veri Toplama</value>
+</data>
+<data name="CAFourSubThree" xml:space="preserve">
+    <value>Global Bilgi Paylaşımı</value>
+</data>
+<data name="CAFourSubFour" xml:space="preserve">
+    <value>Hepsi Bir Arada Araç</value>
+</data>
+<data name="resultTitle" xml:space="preserve">
+<value>Uygulamamızla sonuçları artırın</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>Satışları artırın</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>Müşterileri ekibinize katılmaya teşvik edin</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>Seyahat ve maliyeti azaltın</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>Sık ziyaretleri azaltın</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>Proje süresini kısaltın</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>Uzmanları anında ekleyin</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>Anlaşılırlığı artırın</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>Dil seçenekleriyle sınırsız işbirliği</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>Güçlü Bir Uygulama</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>Dünya giderek daha da birbirine bağlanıyor ve dünyanın dört bir yanından uzmanları bir araya getiriyor. Proje netliği uluslararası sınırlar boyunca etkili bir şekilde yönetilmeli ve dil engelleri kritik bir faktör olmaktan çıkmalıdır. Tüm projeler, mühendislik taleplerinin, kod uyumluluğunun, kalite hedeflerinin, tasarrufların ve müşteriyi memnun eden zaman çizelgelerinin maliyet etkin bir dönüşümünü destekleyen çözümlere odaklanmalıdır.</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>Kaynak Kodları ve Özelleştirme</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>İşiniz en önemlisidir. Bu uygulamayı, gereksinimlerinizi her şekilde desteklemek için tasarladık. Diğer ülkelerden kaynak kodları eklemek veya nitelikler aralığını ihtiyaçlarınıza göre özelleştirmek, portföyümüzün bir parçasıdır.</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>Amerikan Mekanik Mühendisler Derneği</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>Amerikan Kaynakçılık Derneği</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>CEN tarafından onaylanmış EN ISO baskılarını içerir</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>Yeni</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>Kaynak spesifikasyonunuzu uygularız</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>Hazırlık WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>Kaynak Prosedür Kalifikasyon Kayıtları</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>Kaynak Prosedürü Spesifikasyonu</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>Kaynakçı Performans Kalifikasyon Kayıtları</value>
+</data>
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>Küresel erişilebilirliğe ve küresel işbirliğine sahip bir uygulama</value>
+	</data>
+
+  <data name="footerOneSub" xml:space="preserve">
+    <value>Müşteri Hizmetleri</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>İptal Et ve Değiştir</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>Şartlar ve koşullar</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>Gizlilik Politikası</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>Site içi GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>Hakkında GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>Neden GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>Kariyer</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>Hesabım</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>Kayıt olmak</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>Kayıt Ol/Satın Al</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>Destek</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>SSS</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>Yardımcı bilgi</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>Eğitim</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>Bize Ulaşın</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>Her hakkı saklıdır. Şartlar ve Koşullarımız geçerlidir!</value>
+  </data>
+</root>
+

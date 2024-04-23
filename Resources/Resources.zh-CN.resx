@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="menuOne" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>聯絡我們</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>關於長城汽車</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>選擇語言</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>英語</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>中國人</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>丹麥語</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>荷兰语</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>德文</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>希臘文</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>葡萄牙語</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>西班牙語</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>法語</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>義大利語</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>土耳其</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+		<value>中央应用程序</value>
+	</data>
+	<data name="CAPara" xml:space="preserve">
+		<value>無論是在公司內部還是透過供應鏈管理來管理多個製造工廠都變得前所未有的簡單。使用多站點許可證，您可以定義應將多少個位置分組到一個中央管理或獨立運作。中央管理提供了利用經驗、共享批准和管理一組聯合圖書館入口的機會。儘管每個中央管理成員共享其站點信息，但焊接批准的所有權仍然由發起站點控制。</value>
+	</data>
+  <data name="CAOneSub" xml:space="preserve">
+    <value>优势</value>
+</data>
+<data name="CAOneSubOne" xml:space="preserve">
+    <value>中央质量管理</value>
+</data>
+<data name="CAOneSubTwo" xml:space="preserve">
+    <value>共享库</value>
+</data>
+<data name="CAOneSubThree" xml:space="preserve">
+    <value>联合焊接工艺认可</value>
+</data>
+<data name="CAOneSubFour" xml:space="preserve">
+    <value>独立现场管理</value>
+</data>
+<data name="CATwoSub" xml:space="preserve">
+    <value>增强清晰度</value>
+</data>
+<data name="CATwoSubOne" xml:space="preserve">
+    <value>无国界的团队合作</value>
+</data>
+<data name="CATwoSubTwo" xml:space="preserve">
+    <value>对基础和填充材料的供应商控制</value>
+</data>
+<data name="CATwoSubThree" xml:space="preserve">
+    <value>审批机构的集中化</value>
+</data>
+<data name="CATwoSubFour" xml:space="preserve">
+    <value>增强客户信任</value>
+</data>
+<data name="CAThreeSub" xml:space="preserve">
+    <value>网络和团队</value>
+</data>
+<data name="CAThreeSubOne" xml:space="preserve">
+    <value>多地点专家整合</value>
+</data>
+<data name="CAThreeSubTwo" xml:space="preserve">
+    <value>用户管理</value>
+</data>
+<data name="CAThreeSubThree" xml:space="preserve">
+    <value>企业身份</value>
+</data>
+<data name="CAThreeSubFour" xml:space="preserve">
+    <value>标准控制</value>
+</data>
+<data name="CAFourSub" xml:space="preserve">
+    <value>团队合作</value>
+</data>
+<data name="CAFourSubOne" xml:space="preserve">
+    <value>中央管理和行政</value>
+</data>
+<data name="CAFourSubTwo" xml:space="preserve">
+    <value>集体数据捕获</value>
+</data>
+<data name="CAFourSubThree" xml:space="preserve">
+    <value>全球知识共享</value>
+</data>
+<data name="CAFourSubFour" xml:space="preserve">
+    <value>多合一工具</value>
+</data>
+<data name="resultTitle" xml:space="preserve">
+<value>使用我们的SaaS应用程序实现结果</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>增加销售额</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>鼓励客户加入您的团队</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>减少旅行和成本</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>减少频繁的现场访问</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>缩短项目时间</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>即时添加专家</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>提高清晰度</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>语言选项实现无国界团队合作</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>一个强大的应用程序</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>世界变得日益联系紧密，聚集了来自世界各地的专家。项目的清晰度必须在国际范围内有效管理，并且语言障碍必须成为一个非关键因素。所有项目都应该专注于支持工程需求、代码符合性、质量目标、节约和能够满足客户的时间表的成本效益转换的解决方案。</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>焊接代码和定制</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>您的业务最重要。我们设计此应用程序以尽可能支持您的要求。添加来自其他国家的焊接代码，或根据您的需求定制资格范围，都是我们产品组合的一部分。</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>美国机械工程师协会</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>美国焊接学会</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>包括通过CEN批准的EN ISO版本</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>新</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>我们实现您的焊接规范</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>初步WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>焊接程序资格记录</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>焊接程序规范</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>焊工绩效资格记录</value>
+</data>
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>具有全球可訪問性和全球協作能力的應用程式</value>
+	</data>
+
+  <data name="footerOneSub" xml:space="preserve">
+    <value>客戶服務</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>取消和變更</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>條款與條件</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>隱私權政策</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>現場 GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>關於 GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>為什麼 GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>職業機會</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>我的帳戶</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>註冊/購買</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>經常問的問題</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>有用的信息</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>訓練</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>聯絡我們</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>版權所有。我們的條款和條件受條件約束！</value>
+  </data>
+</root>
+

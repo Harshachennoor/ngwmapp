@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="menuOne" xml:space="preserve">
+    <value>hjem</value>
+  </data>
+  <data name="menuTwo" xml:space="preserve">
+    <value>Log på</value>
+  </data>
+  <data name="menuThree" xml:space="preserve">
+    <value>Kontakt os</value>
+  </data>
+  <data name="menuFour" xml:space="preserve">
+    <value>Om GWM</value>
+  </data>
+  <data name="languageSelection" xml:space="preserve">
+		<value>Vælg sprog</value>
+	</data>
+  <data name="languageOne" xml:space="preserve">
+		<value>engelsk</value>
+	</data>
+	<data name="languageTwo" xml:space="preserve">
+		<value>kinesisk</value>
+	</data>
+	<data name="languageThree" xml:space="preserve">
+		<value>dansk</value>
+	</data>
+	<data name="languageFour" xml:space="preserve">
+		<value>Hollandsk</value>
+	</data>
+	<data name="languageFive" xml:space="preserve">
+		<value>tysk</value>
+	</data>
+	<data name="languageSix" xml:space="preserve">
+		<value>græsk</value>
+	</data>
+	<data name="languageSeven" xml:space="preserve">
+		<value>portugisisk</value>
+	</data>
+	<data name="languageEight" xml:space="preserve">
+		<value>spansk</value>
+	</data>
+	<data name="languageNine" xml:space="preserve">
+		<value>fransk</value>
+	</data>
+	<data name="languageTen" xml:space="preserve">
+		<value>italiensk</value>
+	</data>
+	<data name="languageEleven" xml:space="preserve">
+		<value>tyrkisk</value>
+	</data>
+	<data name="CATitle" xml:space="preserve">
+    	<value>Central applikation</value>
+  	</data>
+	<data name="CAPara" xml:space="preserve">
+	<value>Det har aldrig været nemmere at administrere flere produktionssteder, enten inden for en virksomhed eller med forsyningskædestyring. Med en multi-site-licens kan du definere, hvor mange af lokationerne, der skal grupperes i en central administration eller operere uafhængigt. Central administration giver mulighed for at udnytte erfaringer, dele godkendelser og administrere et fælles sæt af biblioteksindgange. Selvom ethvert centralt administrationsmedlem deler deres webstedsinformation, forbliver ejerskabet af svejsegodkendelser i kontrol over det initierende sted.</value>
+	</data>
+  <data name="CAOneSub" xml:space="preserve">
+    <value>FORDELE</value>
+</data>
+<data name="CAOneSubOne" xml:space="preserve">
+    <value>Central kvalitetsstyring</value>
+</data>
+<data name="CAOneSubTwo" xml:space="preserve">
+    <value>Delt biblioteker</value>
+</data>
+<data name="CAOneSubThree" xml:space="preserve">
+    <value>Fælles svejseprocesgodkendelse</value>
+</data>
+<data name="CAOneSubFour" xml:space="preserve">
+    <value>Uafhængig stedledelse</value>
+</data>
+<data name="CATwoSub" xml:space="preserve">
+    <value>FORBEDRE KLARHED</value>
+</data>
+<data name="CATwoSubOne" xml:space="preserve">
+    <value>Teamwork uden grænser</value>
+</data>
+<data name="CATwoSubTwo" xml:space="preserve">
+    <value>Supplier kontrol for base &amp; fyldemateriale</value>
+</data>
+<data name="CATwoSubThree" xml:space="preserve">
+    <value>Centraliserende godkendelsesorganer</value>
+</data>
+<data name="CATwoSubFour" xml:space="preserve">
+    <value>Øget kundetillid</value>
+</data>
+<data name="CAThreeSub" xml:space="preserve">
+    <value>NETVÆRK &amp; TEAM</value>
+</data>
+<data name="CAThreeSubOne" xml:space="preserve">
+    <value>Multi-site ekspertintegration</value>
+</data>
+<data name="CAThreeSubTwo" xml:space="preserve">
+    <value>Brugerstyring</value>
+</data>
+<data name="CAThreeSubThree" xml:space="preserve">
+    <value>Virksomhedsidentitet</value>
+</data>
+<data name="CAThreeSubFour" xml:space="preserve">
+    <value>Styring af standarder</value>
+</data>
+<data name="CAFourSub" xml:space="preserve">
+    <value>TEAMARBEJDE</value>
+</data>
+<data name="CAFourSubOne" xml:space="preserve">
+    <value>Central administration og administration</value>
+</data>
+<data name="CAFourSubTwo" xml:space="preserve">
+    <value>Kollektiv datafangst</value>
+</data>
+<data name="CAFourSubThree" xml:space="preserve">
+    <value>Global videnudveksling</value>
+</data>
+<data name="CAFourSubFour" xml:space="preserve">
+    <value>Alt-i-en værktøj</value>
+</data>
+<data name="resultTitle" xml:space="preserve">
+<value>Drive resultater med vores SaaS-applikation</value>
+</data>
+<data name="resultOneTitle" xml:space="preserve">
+<value>Øg salget</value>
+</data>
+<data name="resultOneDes" xml:space="preserve">
+<value>Inspirer kunder til at deltage i dit team</value>
+</data>
+<data name="resultTwoTitle" xml:space="preserve">
+<value>Nedsæt rejse- og omkostninger</value>
+</data>
+<data name="resultTwoDes" xml:space="preserve">
+<value>Reducer de hyppige besøg på stedet</value>
+</data>
+<data name="resultThreeTitle" xml:space="preserve">
+<value>Reducer projektets tid</value>
+</data>
+<data name="resultThreeDes" xml:space="preserve">
+<value>Tilføj eksperter på farten</value>
+</data>
+<data name="resultFourTitle" xml:space="preserve">
+<value>Forbedre klarhed</value>
+</data>
+<data name="resultFourDes" xml:space="preserve">
+<value>Grænseløst samarbejde med sprogmuligheder</value>
+</data>
+<data name="contentDescTitle" xml:space="preserve">
+    <value>En Kraftfuld Applikation</value>
+</data>
+<data name="contentDescDes" xml:space="preserve">
+    <value>Verden bliver mere og mere sammenkoblet og samler eksperter fra hele verden. Projekttydelighed skal håndteres effektivt på tværs af internationale grænser, og sprogbarrierer skal blive en ikke-kritisk faktor. Alle projekter bør fokusere på løsninger, der understøtter en omkostningseffektiv konvertering af ingeniørkrav, kodeoverholdelse, kvalitetsmål, besparelser og tidsplaner, der tilfredsstiller kunden.</value>
+</data>
+<data name="weldingTitle" xml:space="preserve">
+    <value>Svejsning Koder &amp; Tilpasning</value>
+</data>
+<data name="weldingDes" xml:space="preserve">
+    <value>Din forretning er vigtigst. Vi har designet denne applikation for at understøtte dine krav på enhver mulig måde. Tilføjelse af svejsekoder fra andre lande eller tilpasning af kvalifikationsområdet til dine behov er en del af vores portefølje.</value>
+</data>
+<data name="weldingCodeOneDes" xml:space="preserve">
+    <value>American Society of Mechanical Engineers</value>
+</data>
+<data name="weldingCodeTwoDes" xml:space="preserve">
+    <value>American Welding Society</value>
+</data>
+<data name="weldingCodeThreeDes" xml:space="preserve">
+    <value>Inklusive EN ISO-udgaver godkendt gennem CEN</value>
+</data>
+<data name="weldingCodeFour" xml:space="preserve">
+    <value>Ny</value>
+</data>
+<data name="weldingCodeFourDes" xml:space="preserve">
+    <value>Vi implementerer din svejsespecifikation</value>
+</data>
+<data name="weldingCodeFiveDes" xml:space="preserve">
+    <value>Forberedende WPS</value>
+</data>
+<data name="weldingCodeSixDes" xml:space="preserve">
+    <value>Svejseprocedurekvalifikationsrekorder</value>
+</data>
+<data name="weldingCodeSevenDes" xml:space="preserve">
+    <value>Svejseprocedurespecifikation</value>
+</data>
+<data name="weldingCodeEightDes" xml:space="preserve">
+    <value>Svejserpræstationskvalifikationsrekorder</value>
+</data>
+
+		<data name="footerTitle" xml:space="preserve">
+		<value>En applikation med global tilgængelighed og globalt samarbejde</value>
+	</data>
+  <data name="footerOneSub" xml:space="preserve">
+    <value>Kundeservice</value>
+  </data>
+  <data name="footerOneSubOne" xml:space="preserve">
+    <value>Annullering &amp; Lave om</value>
+  </data>
+  <data name="footerOneSubTwo" xml:space="preserve">
+    <value>Vilkår og Betingelser</value>
+  </data>
+  <data name="footerOneSubThree" xml:space="preserve">
+    <value>Fortrolighedspolitik</value>
+  </data>
+  <data name="footerTwoSub" xml:space="preserve">
+    <value>Inside GWM</value>
+  </data>
+  <data name="footerTwoSubOne" xml:space="preserve">
+    <value>Om GWM</value>
+  </data>
+  <data name="footerTwoSubTwo" xml:space="preserve">
+    <value>Hvorfor GWM</value>
+  </data>
+  <data name="footerTwoSubThree" xml:space="preserve">
+    <value>Karrierer</value>
+  </data>
+  <data name="footerThreeSub" xml:space="preserve">
+    <value>Min konto</value>
+  </data>
+  <data name="footerThreeSubOne" xml:space="preserve">
+    <value>Log ind</value>
+  </data>
+  <data name="footerThreeSubTwo" xml:space="preserve">
+    <value>Registrer/Køb</value>
+  </data>
+  <data name="footerFourSub" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="footerFourSubOne" xml:space="preserve">
+    <value>Ofte stillede spørgsmål</value>
+  </data>
+  <data name="footerFourSubTwo" xml:space="preserve">
+    <value>Nyttig information</value>
+  </data>
+  <data name="footerFourSubThree" xml:space="preserve">
+    <value>Uddannelse</value>
+  </data>
+  <data name="footerContactUsTag" xml:space="preserve">
+    <value>Kontakt os</value>
+  </data>
+  <data name="footerEnd" xml:space="preserve">
+    <value>Alle rettigheder forbeholdes. Vores vilkår &amp; Betingelser gælder!</value>
+  </data>
+</root>
+
