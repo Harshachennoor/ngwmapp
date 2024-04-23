@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>Einschließlich EN ISO-Ausgaben, die durch CEN genehmigt wurden</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>Neu</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>Wir setzen Ihre Schweißspezifikation um</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>Schweißerleistungsqualifikationsaufzeichnungen</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>Lösung für Branchen</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>kann auf alle Branchen angewendet werden, die Schweißen nutzen</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>Chemisch</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>Energie</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>OEM-Sektor</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>Papier &amp; Zellstoff</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>Pharmazeutisch</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>Transport</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>Anlagen &amp; Ausrüstung</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>Benzin &amp; Gas</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>Fossil</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>Bauwesen &amp; Zivil</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>Stationär</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>Schiffe</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>Züge</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>Luft- und Raumfahrt</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>Automobil</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

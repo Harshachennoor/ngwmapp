@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>Incluindo edições EN ISO aprovadas pelo CEN</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>Novo</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>Implementamos sua especificação de soldagem</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>Registros de Qualificação de Desempenho de Soldador</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>Solução para Indústrias</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>pode ser aplicada a todas as indústrias que utilizam soldagem</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>Química</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>Energia</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>Sector OEM</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>Papel e Celulose</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>Farmacêutica</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>Transporte</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>Plantas e Equipamentos</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>Petróleo e Gás</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>Fóssil</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>Construção Civil e Estruturas</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>Estacionário</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>Navios</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>Trens</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>Aeroespacial</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>Automóvel</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

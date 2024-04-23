@@ -22,16 +22,16 @@ public class LanguageController : Controller
                 new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
             );
         }
+        Console.WriteLine(returnUrl);
+        Uri uri = new Uri(returnUrl);
+        string path = uri.AbsolutePath.Trim('/');
+        string[] segments = path.Split('/');
 
-        // Ensure the returnUrl is a local URL to prevent open redirects
-        if (Url.IsLocalUrl(returnUrl))
-        {
-            return Redirect(returnUrl);
-        }
-        else
-        {
-            return RedirectToAction("Index", "Home");
-        }
+        string controllerSegment = segments.Length > 0 ? segments[0] : string.Empty;
+        string viewSegment = segments.Length > 1 ? segments[1] : string.Empty;
+
+        return RedirectToAction(viewSegment, controllerSegment);
+
     }
 
 }

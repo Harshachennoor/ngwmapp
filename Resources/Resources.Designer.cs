@@ -436,6 +436,141 @@ namespace ngwmapp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Petrol &amp; Gas.
+        /// </summary>
+        internal static string industryEight {
+            get {
+                return ResourceManager.GetString("industryEight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stationaire.
+        /// </summary>
+        internal static string industryEleven {
+            get {
+                return ResourceManager.GetString("industryEleven", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automobile.
+        /// </summary>
+        internal static string industryFifteen {
+            get {
+                return ResourceManager.GetString("industryFifteen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pharmaceutical.
+        /// </summary>
+        internal static string industryFive {
+            get {
+                return ResourceManager.GetString("industryFive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paper &amp; Pulp.
+        /// </summary>
+        internal static string industryFour {
+            get {
+                return ResourceManager.GetString("industryFour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aerospace.
+        /// </summary>
+        internal static string industryFourteen {
+            get {
+                return ResourceManager.GetString("industryFourteen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fossil.
+        /// </summary>
+        internal static string industryNine {
+            get {
+                return ResourceManager.GetString("industryNine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chemical.
+        /// </summary>
+        internal static string industryOne {
+            get {
+                return ResourceManager.GetString("industryOne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plants &amp; Equipment.
+        /// </summary>
+        internal static string industrySeven {
+            get {
+                return ResourceManager.GetString("industrySeven", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transportation.
+        /// </summary>
+        internal static string industrySix {
+            get {
+                return ResourceManager.GetString("industrySix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Structural &amp; Civil.
+        /// </summary>
+        internal static string industryTen {
+            get {
+                return ResourceManager.GetString("industryTen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trains.
+        /// </summary>
+        internal static string industryThirteen {
+            get {
+                return ResourceManager.GetString("industryThirteen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OEM Sector.
+        /// </summary>
+        internal static string industryThree {
+            get {
+                return ResourceManager.GetString("industryThree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ships.
+        /// </summary>
+        internal static string industryTwelve {
+            get {
+                return ResourceManager.GetString("industryTwelve", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Energy.
+        /// </summary>
+        internal static string industryTwo {
+            get {
+                return ResourceManager.GetString("industryTwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Spanish.
         /// </summary>
         internal static string languageEight {
@@ -463,7 +598,7 @@ namespace ngwmapp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dutuch.
+        ///   Looks up a localized string similar to Dutch.
         /// </summary>
         internal static string languageFour {
             get {
@@ -661,6 +796,24 @@ namespace ngwmapp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to can be applied to all industries which utilize welding.
+        /// </summary>
+        internal static string solutionDes {
+            get {
+                return ResourceManager.GetString("solutionDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Solution to Industries.
+        /// </summary>
+        internal static string solutionTitle {
+            get {
+                return ResourceManager.GetString("solutionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Welder Performance Qualification Records.
         /// </summary>
         internal static string weldingCodeEightDes {
@@ -675,15 +828,6 @@ namespace ngwmapp.Resources {
         internal static string weldingCodeFiveDes {
             get {
                 return ResourceManager.GetString("weldingCodeFiveDes", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to New.
-        /// </summary>
-        internal static string weldingCodeFour {
-            get {
-                return ResourceManager.GetString("weldingCodeFour", resourceCulture);
             }
         }
         

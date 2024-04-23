@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>CEN tarafından onaylanmış EN ISO baskılarını içerir</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>Yeni</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>Kaynak spesifikasyonunuzu uygularız</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>Kaynakçı Performans Kalifikasyon Kayıtları</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>Endüstrilere Çözüm</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>çelik kaynağı kullanan tüm endüstrilere uygulanabilir</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>Kimyasal</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>Enerji</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>OEM Sektörü</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>Kağıt ve Selüloz</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>Farmasötik</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>Ulaşım</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>Tesisler ve Ekipman</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>Petrol ve Gaz</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>Fosil</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>Yapısal ve Sivil</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>Durağan</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>Gemiler</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>Trenler</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>Havacılık</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>Otomobil</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

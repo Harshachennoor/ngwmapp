@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>Inclusief EN ISO-edities goedgekeurd door CEN</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>Nieuw</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>We implementeren uw las specificatie</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>Lasser Prestatie Kwalificatiegegevens</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>Oplossing voor Industrieën</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>kan worden toegepast op alle industrieën die lassen gebruiken</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>Chemisch</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>Energie</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>OEM-sector</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>Papier en Pulp</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>Farmaceutisch</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>Transport</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>Installaties en Apparatuur</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>Brandstof en Gas</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>Fossiel</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>Structureel en Civiel</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>Stationair</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>Schepen</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>Treinen</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>Luchtvaart</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>Auto</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

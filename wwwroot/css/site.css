@@ -366,7 +366,7 @@ button {
   margin: 0.25rem;
   position: relative;
   width: 18rem;
-  height: 14.5rem;
+  height: 12rem;
 }
 
 .card img {
@@ -399,12 +399,12 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
   padding-left: 1rem;
 }
 
 .imageInfo h6 {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   letter-spacing: 1px;
 }
 
@@ -513,6 +513,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .weldingCodes div {
@@ -591,18 +592,20 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 10rem;
+  height: max-content;
+  margin-top: 1.25rem;
   min-width: 10rem;
 }
 
 .industryDivs h6 {
   padding-top: 0.25rem;
+  text-align: center;
 }
 
 .iImageDiv {
   border-radius: 50%;
   background-color: white;
-  padding: 0.25rem;
+  padding: 0 0.25rem 0.25rem 0.25rem;
 }
 
 /* ******** */
@@ -868,6 +871,14 @@ button {
 
 .customizeFooter a:hover {
   color: #0d6efd !important;
+}
+
+.widget-title {
+  margin-bottom: 0.5rem;
+}
+
+.widget {
+  margin-top: 1rem;
 }
 
 /* ******* */

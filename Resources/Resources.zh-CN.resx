@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>包括通过CEN批准的EN ISO版本</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>新</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>我们实现您的焊接规范</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>焊工绩效资格记录</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>行业解决方案</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>可应用于所有使用焊接的行业</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>化工</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>能源</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>OEM行业</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>纸浆与造纸</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>制药</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>运输</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>工厂与设备</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>石油与天然气</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>化石</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>结构与土木</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>静止的</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>船舶</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>火车</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>航空航天</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>汽车</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

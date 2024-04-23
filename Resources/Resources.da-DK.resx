@@ -174,9 +174,6 @@
 <data name="weldingCodeThreeDes" xml:space="preserve">
     <value>Inklusive EN ISO-udgaver godkendt gennem CEN</value>
 </data>
-<data name="weldingCodeFour" xml:space="preserve">
-    <value>Ny</value>
-</data>
 <data name="weldingCodeFourDes" xml:space="preserve">
     <value>Vi implementerer din svejsespecifikation</value>
 </data>
@@ -191,6 +188,57 @@
 </data>
 <data name="weldingCodeEightDes" xml:space="preserve">
     <value>Svejserpræstationskvalifikationsrekorder</value>
+</data>
+<data name="solutionTitle" xml:space="preserve">
+    <value>Løsning til industrier</value>
+</data>
+<data name="solutionDes" xml:space="preserve">
+    <value>kan anvendes i alle industrier, der bruger svejsning</value>
+</data>
+<data name="industryOne" xml:space="preserve">
+    <value>Kemisk</value>
+</data>
+<data name="industryTwo" xml:space="preserve">
+    <value>Energi</value>
+</data>
+<data name="industryThree" xml:space="preserve">
+    <value>OEM-sektor</value>
+</data>
+<data name="industryFour" xml:space="preserve">
+    <value>Papir &amp; Pulp</value>
+</data>
+<data name="industryFive" xml:space="preserve">
+    <value>Farmaceutisk</value>
+</data>
+<data name="industrySix" xml:space="preserve">
+    <value>Transport</value>
+</data>
+<data name="industrySeven" xml:space="preserve">
+    <value>Planter &amp; Udstyr</value>
+</data>
+<data name="industryEight" xml:space="preserve">
+    <value>Benzin &amp; Gas</value>
+</data>
+<data name="industryNine" xml:space="preserve">
+    <value>Fossil</value>
+</data>
+<data name="industryTen" xml:space="preserve">
+    <value>Strukturel &amp; Civil</value>
+</data>
+<data name="industryEleven" xml:space="preserve">
+    <value>Stationær</value>
+</data>
+<data name="industryTwelve" xml:space="preserve">
+    <value>Skibe</value>
+</data>
+<data name="industryThirteen" xml:space="preserve">
+    <value>Tog</value>
+</data>
+<data name="industryFourteen" xml:space="preserve">
+    <value>Rumfart</value>
+</data>
+<data name="industryFifteen" xml:space="preserve">
+    <value>Bil</value>
 </data>
 
 		<data name="footerTitle" xml:space="preserve">

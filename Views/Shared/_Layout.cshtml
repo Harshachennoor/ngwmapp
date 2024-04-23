@@ -145,28 +145,17 @@
                     <button class="dropbtn">@ngwmapp.Resources.Resources.languageSelection <i
                             class="fa-solid fa-caret-down"></i></button>
                     <div class="dropdown-content" id="myDropdown">
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="en-US"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageOne</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="zh-CN"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageTwo</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="da-DK"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageThree</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="nl-NL"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageFour</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="de-DE"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageFive</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="el-GR"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageSix</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="pt-BR"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageSeven</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="es-ES"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageEight</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="fr-FR"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageNine</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="it-IT"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageTen</a>
-                        <a asp-action="SetLanguage" asp-controller="Language" asp-route-culture="tr-TR"
-                            asp-route-returnUrl="@Url.Action("Index", "Home")">@ngwmapp.Resources.Resources.languageEleven</a>
+                        <a onclick="setLanguage('en-US')">@ngwmapp.Resources.Resources.languageOne</a>
+                        <a onclick="setLanguage('zh-CN')">@ngwmapp.Resources.Resources.languageTwo</a>
+                        <a onclick="setLanguage('da-DK')">@ngwmapp.Resources.Resources.languageThree</a>
+                        <a onclick="setLanguage('nl-NL')">@ngwmapp.Resources.Resources.languageFour</a>
+                        <a onclick="setLanguage('de-DE')">@ngwmapp.Resources.Resources.languageFive</a>
+                        <a onclick="setLanguage('el-GR')">@ngwmapp.Resources.Resources.languageSix</a>
+                        <a onclick="setLanguage('pt-BR')">@ngwmapp.Resources.Resources.languageSeven</a>
+                        <a onclick="setLanguage('es-ES')">@ngwmapp.Resources.Resources.languageEight</a>
+                        <a onclick="setLanguage('fr-FR')">@ngwmapp.Resources.Resources.languageNine</a>
+                        <a onclick="setLanguage('it-IT')">@ngwmapp.Resources.Resources.languageTen</a>
+                        <a onclick="setLanguage('tr-TR')">@ngwmapp.Resources.Resources.languageEleven</a>
                     </div>
                 </div>
             </div>
@@ -182,15 +171,16 @@
                                 <div class="widget">
 
                                     <div class="widget-title">Global Weld Management (GWM) --
-                                        <span>@ngwmapp.Resources.Resources.footerTitle </span>--</div>
+                                        <span>@ngwmapp.Resources.Resources.footerTitle </span>--
+                                    </div>
                                     <hr>
                                 </div>
                             </div>
-                            <div class="col-md-12" style="margin-top: 1rem;">
+                            <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                            <div class="widget-title">
                                                 @ngwmapp.Resources.Resources.footerOneSub
                                             </div>
                                             <ul class="list">
@@ -210,7 +200,7 @@
 
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                            <div class="widget-title">
                                                 @ngwmapp.Resources.Resources.footerTwoSub</div>
                                             <ul class="list">
                                                 <li><a
@@ -227,7 +217,7 @@
 
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                            <div class="widget-title">
                                                 @ngwmapp.Resources.Resources.footerThreeSub</div>
                                             <ul class="list">
                                                 <li><a
@@ -244,7 +234,7 @@
                                     </div>
                                     <div class="col-md-3">
                                         <div class="widget">
-                                            <div class="widget-title" style="margin-bottom: 0.5rem;">
+                                            <div class="widget-title">
                                                 @ngwmapp.Resources.Resources.footerFourSub</div>
                                             <ul class="list">
                                                 <li><a href="#">@ngwmapp.Resources.Resources.footerFourSubOne</a></li>
@@ -266,7 +256,8 @@
                 <div class="copyright-content">
                     <div class="container" style="padding-top: 2rem;">
                         <div class="copyright-text text-center">© 2024 ECE Global.
-                            <span>@ngwmapp.Resources.Resources.footerEnd</span></div>
+                            <span>@ngwmapp.Resources.Resources.footerEnd</span>
+                        </div>
                     </div>
                 </div>
             </footer>
@@ -275,6 +266,12 @@
     </div>
 
     <script>
+        function setLanguage(culture) {
+            var currentUrl = window.location.href; // Get current URL
+            var link = '@Url.Action("SetLanguage", "Language")' + '?culture=' + culture + '&returnUrl=' + encodeURIComponent(currentUrl);
+            console.log(link);
+            window.location.href = link; // Redirect to the controller action with the current URL as returnUrl
+        }
         document.getElementById("collapseExpandBtn").addEventListener('click', function () {
             var menuBar = document.querySelector('.menuBar');
             var bodyContainer = document.querySelector('.bodyContainer');
