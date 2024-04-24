@@ -242,6 +242,7 @@ button {
 /* ************* */
 
 .bodyContainer {
+  width: 100%;
   margin-left: 205px;
   display: flex;
   flex-direction: column;
@@ -561,6 +562,10 @@ button {
 
 
 /* solution infinite loop div CSS  */
+.solution {
+  margin: 0.5rem 0;
+}
+
 .solutionDiv {
   display: flex;
   flex-direction: column;
@@ -1085,9 +1090,14 @@ button {
   .menuBar,
   .searchLanguage,
   .d-print-none,
-  #printV1,
-  #printV2,
-  .cForm {
+  .printButtons,
+  .cForm,
+  .homeImage,
+  .caContentDivs,
+  .percentageResults,
+  .contentDesc1,
+  .weldingCC,
+  .solution {
     display: none;
   }
 

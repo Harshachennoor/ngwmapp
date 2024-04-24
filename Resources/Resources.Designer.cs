@@ -256,6 +256,168 @@ namespace ngwmapp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ADDRESS.
+        /// </summary>
+        internal static string cFAOne {
+            get {
+                return ResourceManager.GetString("cFAOne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to USA.
+        /// </summary>
+        internal static string cFAThree {
+            get {
+                return ResourceManager.GetString("cFAThree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Itasca, IL.
+        /// </summary>
+        internal static string cFATwo {
+            get {
+                return ResourceManager.GetString("cFATwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SEND MESSAGE.
+        /// </summary>
+        internal static string cFButton {
+            get {
+                return ResourceManager.GetString("cFButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Company.
+        /// </summary>
+        internal static string cFCompany {
+            get {
+                return ResourceManager.GetString("cFCompany", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your Company name.
+        /// </summary>
+        internal static string cFCompanyP {
+            get {
+                return ResourceManager.GetString("cFCompanyP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        internal static string cFEmail {
+            get {
+                return ResourceManager.GetString("cFEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your Email.
+        /// </summary>
+        internal static string CFEmailP {
+            get {
+                return ResourceManager.GetString("CFEmailP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Message.
+        /// </summary>
+        internal static string cFMessage {
+            get {
+                return ResourceManager.GetString("cFMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your message.
+        /// </summary>
+        internal static string cFMessageP {
+            get {
+                return ResourceManager.GetString("cFMessageP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string cFName {
+            get {
+                return ResourceManager.GetString("cFName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your Name.
+        /// </summary>
+        internal static string cFNameP {
+            get {
+                return ResourceManager.GetString("cFNameP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please contact us with your questions or any feedback.
+        /// </summary>
+        internal static string cFormDes {
+            get {
+                return ResourceManager.GetString("cFormDes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We would like to hear from you.
+        /// </summary>
+        internal static string cFormTitle {
+            get {
+                return ResourceManager.GetString("cFormTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone number.
+        /// </summary>
+        internal static string CFPhone {
+            get {
+                return ResourceManager.GetString("CFPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your contact number.
+        /// </summary>
+        internal static string cFPhoneP {
+            get {
+                return ResourceManager.GetString("cFPhoneP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Subject.
+        /// </summary>
+        internal static string cFSubject {
+            get {
+                return ResourceManager.GetString("cFSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subject.
+        /// </summary>
+        internal static string cFSubjectP {
+            get {
+                return ResourceManager.GetString("cFSubjectP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The world is becoming increasingly interconnected and brings together experts from all over the world. Project clarity must be managed effectively across international borders, and language barriers must become a non-critical factor. All projects should be focusing on solutions that support a cost-effective conversion of engineering demands, code compliance, quality objectives, savings, and timelines that satisfy the customer..
         /// </summary>
         internal static string contentDescDes {

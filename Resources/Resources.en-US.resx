@@ -243,6 +243,60 @@
   <data name="industryFifteen" xml:space="preserve">
     <value>Automobile</value>
   </data>
+  <data name="cFormTitle" xml:space="preserve">
+    <value>We would like to hear from you</value>
+  </data>
+  <data name="cFormDes" xml:space="preserve">
+    <value>Please contact us with your questions or any feedback</value>
+  </data>
+  <data name="cFName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+   <data name="cFNameP" xml:space="preserve">
+    <value>Enter your Name</value>
+  </data>
+   <data name="cFCompany" xml:space="preserve">
+    <value>Company</value>
+  </data>
+   <data name="cFCompanyP" xml:space="preserve">
+    <value>Enter your Company name</value>
+  </data>
+   <data name="cFEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+   <data name="CFEmailP" xml:space="preserve">
+    <value>Enter your Email</value>
+  </data>
+   <data name="CFPhone" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+   <data name="cFPhoneP" xml:space="preserve">
+    <value>Enter your contact number</value>
+  </data>
+   <data name="cFSubject" xml:space="preserve">
+    <value>Your Subject</value>
+  </data>
+   <data name="cFSubjectP" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+   <data name="cFMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+   <data name="cFMessageP" xml:space="preserve">
+    <value>Enter your message</value>
+  </data>
+   <data name="cFButton" xml:space="preserve">
+    <value>SEND MESSAGE</value>
+  </data>
+   <data name="cFAOne" xml:space="preserve">
+    <value>ADDRESS</value>
+  </data>
+   <data name="cFATwo" xml:space="preserve">
+    <value>Itasca, IL</value>
+  </data>
+  <data name="cFAThree" xml:space="preserve">
+    <value>USA</value>
+  </data>
   <data name="footerOneSub" xml:space="preserve">
     <value>Customer Care</value>
   </data>

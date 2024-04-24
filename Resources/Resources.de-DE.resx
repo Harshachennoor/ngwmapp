@@ -129,119 +129,174 @@
   <data name="resultTitle" xml:space="preserve">
 <value>Ergebnisse mit unserer SaaS-Anwendung steigern</value>
 </data>
-<data name="resultOneTitle" xml:space="preserve">
-<value>Umsatz steigern</value>
-</data>
-<data name="resultOneDes" xml:space="preserve">
-<value>Kunden dazu inspirieren, Ihrem Team beizutreten</value>
-</data>
-<data name="resultTwoTitle" xml:space="preserve">
-<value>Reise- und Kosten senken</value>
-</data>
-<data name="resultTwoDes" xml:space="preserve">
-<value>Häufige Vor-Ort-Besuche reduzieren</value>
-</data>
-<data name="resultThreeTitle" xml:space="preserve">
-<value>Projektzeit verkürzen</value>
-</data>
-<data name="resultThreeDes" xml:space="preserve">
-<value>Experten unterwegs hinzufügen</value>
-</data>
-<data name="resultFourTitle" xml:space="preserve">
-<value>Klarheit verbessern</value>
-</data>
-<data name="resultFourDes" xml:space="preserve">
-<value>Grenzenlose Teamarbeit mit Sprachoptionen</value>
-</data>
-<data name="contentDescTitle" xml:space="preserve">
-    <value>Eine Leistungsstarke Anwendung</value>
-</data>
-<data name="contentDescDes" xml:space="preserve">
-    <value>Die Welt wird zunehmend vernetzter und bringt Experten aus der ganzen Welt zusammen. Die Projekttransparenz muss effektiv über internationale Grenzen hinweg verwaltet werden, und Sprachbarrieren dürfen keine kritische Rolle spielen. Alle Projekte sollten sich auf Lösungen konzentrieren, die eine kosteneffektive Umwandlung von Ingenieur-Anforderungen, Code-Konformität, Qualitätszielen, Einsparungen und Zeitplänen ermöglichen, die den Kunden zufriedenstellen.</value>
-</data>
-<data name="weldingTitle" xml:space="preserve">
-    <value>Schweißcodes &amp; Anpassung</value>
-</data>
-<data name="weldingDes" xml:space="preserve">
-    <value>Ihr Unternehmen steht an erster Stelle. Wir haben diese Anwendung entwickelt, um Ihre Anforderungen auf jede erdenkliche Weise zu unterstützen. Das Hinzufügen von Schweißcodes aus anderen Ländern oder die Anpassung des Qualifikationsbereichs an Ihre Bedürfnisse gehören zu unserem Portfolio.</value>
-</data>
-<data name="weldingCodeOneDes" xml:space="preserve">
-    <value>American Society of Mechanical Engineers</value>
-</data>
-<data name="weldingCodeTwoDes" xml:space="preserve">
-    <value>American Welding Society</value>
-</data>
-<data name="weldingCodeThreeDes" xml:space="preserve">
-    <value>Einschließlich EN ISO-Ausgaben, die durch CEN genehmigt wurden</value>
-</data>
-<data name="weldingCodeFourDes" xml:space="preserve">
-    <value>Wir setzen Ihre Schweißspezifikation um</value>
-</data>
-<data name="weldingCodeFiveDes" xml:space="preserve">
-    <value>Vorbereitende WPS</value>
-</data>
-<data name="weldingCodeSixDes" xml:space="preserve">
-    <value>Schweißverfahrensqualifikationsaufzeichnungen</value>
-</data>
-<data name="weldingCodeSevenDes" xml:space="preserve">
-    <value>Schweißverfahrensspezifikation</value>
-</data>
-<data name="weldingCodeEightDes" xml:space="preserve">
-    <value>Schweißerleistungsqualifikationsaufzeichnungen</value>
-</data>
-<data name="solutionTitle" xml:space="preserve">
-    <value>Lösung für Branchen</value>
-</data>
-<data name="solutionDes" xml:space="preserve">
-    <value>kann auf alle Branchen angewendet werden, die Schweißen nutzen</value>
-</data>
-<data name="industryOne" xml:space="preserve">
-    <value>Chemisch</value>
-</data>
-<data name="industryTwo" xml:space="preserve">
-    <value>Energie</value>
-</data>
-<data name="industryThree" xml:space="preserve">
-    <value>OEM-Sektor</value>
-</data>
-<data name="industryFour" xml:space="preserve">
-    <value>Papier &amp; Zellstoff</value>
-</data>
-<data name="industryFive" xml:space="preserve">
-    <value>Pharmazeutisch</value>
-</data>
-<data name="industrySix" xml:space="preserve">
-    <value>Transport</value>
-</data>
-<data name="industrySeven" xml:space="preserve">
-    <value>Anlagen &amp; Ausrüstung</value>
-</data>
-<data name="industryEight" xml:space="preserve">
-    <value>Benzin &amp; Gas</value>
-</data>
-<data name="industryNine" xml:space="preserve">
-    <value>Fossil</value>
-</data>
-<data name="industryTen" xml:space="preserve">
-    <value>Bauwesen &amp; Zivil</value>
-</data>
-<data name="industryEleven" xml:space="preserve">
-    <value>Stationär</value>
-</data>
-<data name="industryTwelve" xml:space="preserve">
-    <value>Schiffe</value>
-</data>
-<data name="industryThirteen" xml:space="preserve">
-    <value>Züge</value>
-</data>
-<data name="industryFourteen" xml:space="preserve">
-    <value>Luft- und Raumfahrt</value>
-</data>
-<data name="industryFifteen" xml:space="preserve">
-    <value>Automobil</value>
-</data>
+  <data name="resultOneTitle" xml:space="preserve">
+  <value>Umsatz steigern</value>
+  </data>
+  <data name="resultOneDes" xml:space="preserve">
+  <value>Kunden dazu inspirieren, Ihrem Team beizutreten</value>
+  </data>
+  <data name="resultTwoTitle" xml:space="preserve">
+  <value>Reise- und Kosten senken</value>
+  </data>
+  <data name="resultTwoDes" xml:space="preserve">
+  <value>Häufige Vor-Ort-Besuche reduzieren</value>
+  </data>
+  <data name="resultThreeTitle" xml:space="preserve">
+  <value>Projektzeit verkürzen</value>
+  </data>
+  <data name="resultThreeDes" xml:space="preserve">
+  <value>Experten unterwegs hinzufügen</value>
+  </data>
+  <data name="resultFourTitle" xml:space="preserve">
+  <value>Klarheit verbessern</value>
+  </data>
+  <data name="resultFourDes" xml:space="preserve">
+  <value>Grenzenlose Teamarbeit mit Sprachoptionen</value>
+  </data>
+  <data name="contentDescTitle" xml:space="preserve">
+      <value>Eine Leistungsstarke Anwendung</value>
+  </data>
+  <data name="contentDescDes" xml:space="preserve">
+      <value>Die Welt wird zunehmend vernetzter und bringt Experten aus der ganzen Welt zusammen. Die Projekttransparenz muss effektiv über internationale Grenzen hinweg verwaltet werden, und Sprachbarrieren dürfen keine kritische Rolle spielen. Alle Projekte sollten sich auf Lösungen konzentrieren, die eine kosteneffektive Umwandlung von Ingenieur-Anforderungen, Code-Konformität, Qualitätszielen, Einsparungen und Zeitplänen ermöglichen, die den Kunden zufriedenstellen.</value>
+  </data>
+  <data name="weldingTitle" xml:space="preserve">
+      <value>Schweißcodes &amp; Anpassung</value>
+  </data>
+  <data name="weldingDes" xml:space="preserve">
+      <value>Ihr Unternehmen steht an erster Stelle. Wir haben diese Anwendung entwickelt, um Ihre Anforderungen auf jede erdenkliche Weise zu unterstützen. Das Hinzufügen von Schweißcodes aus anderen Ländern oder die Anpassung des Qualifikationsbereichs an Ihre Bedürfnisse gehören zu unserem Portfolio.</value>
+  </data>
+  <data name="weldingCodeOneDes" xml:space="preserve">
+      <value>American Society of Mechanical Engineers</value>
+  </data>
+  <data name="weldingCodeTwoDes" xml:space="preserve">
+      <value>American Welding Society</value>
+  </data>
+  <data name="weldingCodeThreeDes" xml:space="preserve">
+      <value>Einschließlich EN ISO-Ausgaben, die durch CEN genehmigt wurden</value>
+  </data>
+  <data name="weldingCodeFourDes" xml:space="preserve">
+      <value>Wir setzen Ihre Schweißspezifikation um</value>
+  </data>
+  <data name="weldingCodeFiveDes" xml:space="preserve">
+      <value>Vorbereitende WPS</value>
+  </data>
+  <data name="weldingCodeSixDes" xml:space="preserve">
+      <value>Schweißverfahrensqualifikationsaufzeichnungen</value>
+  </data>
+  <data name="weldingCodeSevenDes" xml:space="preserve">
+      <value>Schweißverfahrensspezifikation</value>
+  </data>
+  <data name="weldingCodeEightDes" xml:space="preserve">
+      <value>Schweißerleistungsqualifikationsaufzeichnungen</value>
+  </data>
+  <data name="solutionTitle" xml:space="preserve">
+      <value>Lösung für Branchen</value>
+  </data>
+  <data name="solutionDes" xml:space="preserve">
+      <value>kann auf alle Branchen angewendet werden, die Schweißen nutzen</value>
+  </data>
+  <data name="industryOne" xml:space="preserve">
+      <value>Chemisch</value>
+  </data>
+  <data name="industryTwo" xml:space="preserve">
+      <value>Energie</value>
+  </data>
+  <data name="industryThree" xml:space="preserve">
+      <value>OEM-Sektor</value>
+  </data>
+  <data name="industryFour" xml:space="preserve">
+      <value>Papier &amp; Zellstoff</value>
+  </data>
+  <data name="industryFive" xml:space="preserve">
+      <value>Pharmazeutisch</value>
+  </data>
+  <data name="industrySix" xml:space="preserve">
+      <value>Transport</value>
+  </data>
+  <data name="industrySeven" xml:space="preserve">
+      <value>Anlagen &amp; Ausrüstung</value>
+  </data>
+  <data name="industryEight" xml:space="preserve">
+      <value>Benzin &amp; Gas</value>
+  </data>
+  <data name="industryNine" xml:space="preserve">
+      <value>Fossil</value>
+  </data>
+  <data name="industryTen" xml:space="preserve">
+      <value>Bauwesen &amp; Zivil</value>
+  </data>
+  <data name="industryEleven" xml:space="preserve">
+      <value>Stationär</value>
+  </data>
+  <data name="industryTwelve" xml:space="preserve">
+      <value>Schiffe</value>
+  </data>
+  <data name="industryThirteen" xml:space="preserve">
+      <value>Züge</value>
+  </data>
+  <data name="industryFourteen" xml:space="preserve">
+      <value>Luft- und Raumfahrt</value>
+  </data>
+  <data name="industryFifteen" xml:space="preserve">
+      <value>Automobil</value>
+  </data>
+  <data name="cFormTitle" xml:space="preserve">
+    <value>Wir würden gerne von Ihnen hören</value>
+  </data>
+  <data name="cFormDes" xml:space="preserve">
+      <value>Kontaktieren Sie uns bitte bei Fragen oder Feedback</value>
+  </data>
+  <data name="cFName" xml:space="preserve">
+      <value>Name</value>
+  </data>
+  <data name="cFNameP" xml:space="preserve">
+      <value>Geben Sie Ihren Namen ein</value>
+  </data>
+  <data name="cFCompany" xml:space="preserve">
+      <value>Firma</value>
+  </data>
+  <data name="cFCompanyP" xml:space="preserve">
+      <value>Geben Sie den Namen Ihres Unternehmens ein</value>
+  </data>
+  <data name="cFEmail" xml:space="preserve">
+      <value>Email</value>
+  </data>
+  <data name="CFEmailP" xml:space="preserve">
+      <value>Geben Sie Ihre E-Mail-Adresse ein</value>
+  </data>
+  <data name="CFPhone" xml:space="preserve">
+      <value>Telefonnummer</value>
+  </data>
+  <data name="cFPhoneP" xml:space="preserve">
+      <value>Geben Sie Ihre Telefonnummer ein</value>
+  </data>
+  <data name="cFSubject" xml:space="preserve">
+      <value>Ihr Betreff</value>
+  </data>
+  <data name="cFSubjectP" xml:space="preserve">
+      <value>Betreff</value>
+  </data>
+  <data name="cFMessage" xml:space="preserve">
+      <value>Nachricht</value>
+  </data>
+  <data name="cFMessageP" xml:space="preserve">
+      <value>Geben Sie Ihre Nachricht ein</value>
+  </data>
+  <data name="cFButton" xml:space="preserve">
+      <value>NACHRICHT SENDEN</value>
+  </data>
+  <data name="cFAOne" xml:space="preserve">
+      <value>ADRESSE</value>
+  </data>
+  <data name="cFATwo" xml:space="preserve">
+      <value>Itasca, IL</value>
+  </data>
+  <data name="cFAThree" xml:space="preserve">
+      <value>USA</value>
+  </data>
 
-		<data name="footerTitle" xml:space="preserve">
+
+	<data name="footerTitle" xml:space="preserve">
 		<value>Eine Anwendung mit globaler Zugänglichkeit und globaler Zusammenarbeit</value>
 	</data>
 
