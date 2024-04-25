@@ -22,7 +22,6 @@ public class LanguageController : Controller
                 new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
             );
         }
-        Console.WriteLine(returnUrl);
         Uri uri = new Uri(returnUrl);
         string path = uri.AbsolutePath.Trim('/');
         string[] segments = path.Split('/');

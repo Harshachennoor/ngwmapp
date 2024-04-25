@@ -240,6 +240,12 @@
     <data name="industryFifteen" xml:space="preserve">
         <value>Αυτοκίνητο</value>
     </data>
+    <data name="printVOne" xml:space="preserve">
+        <value>Εκτύπωση V1</value>
+    </data>
+    <data name="printVTwo" xml:space="preserve">
+        <value>Εκτύπωση V2</value>
+    </data>
     <data name="cFormTitle" xml:space="preserve">
         <value>Θα θέλαμε να ακούσουμε από εσάς</value>
     </data>

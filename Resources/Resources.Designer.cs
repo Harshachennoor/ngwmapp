@@ -877,6 +877,24 @@ namespace ngwmapp.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Print V1.
+        /// </summary>
+        internal static string printVOne {
+            get {
+                return ResourceManager.GetString("printVOne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print V2.
+        /// </summary>
+        internal static string printVTwo {
+            get {
+                return ResourceManager.GetString("printVTwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Borderless teamwork with language options.
         /// </summary>
         internal static string resultFourDes {

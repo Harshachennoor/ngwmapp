@@ -14,20 +14,20 @@
 	</resheader>
 	<data name="menuOne" xml:space="preserve">
     <value>家</value>
-  </data>
-  <data name="menuTwo" xml:space="preserve">
-    <value>登入</value>
-  </data>
-  <data name="menuThree" xml:space="preserve">
-    <value>聯絡我們</value>
-  </data>
-  <data name="menuFour" xml:space="preserve">
-    <value>關於長城汽車</value>
-  </data>
-  <data name="languageSelection" xml:space="preserve">
+    </data>
+    <data name="menuTwo" xml:space="preserve">
+        <value>登入</value>
+    </data>
+    <data name="menuThree" xml:space="preserve">
+        <value>聯絡我們</value>
+    </data>
+    <data name="menuFour" xml:space="preserve">
+        <value>關於長城汽車</value>
+    </data>
+    <data name="languageSelection" xml:space="preserve">
 		<value>選擇語言</value>
 	</data>
-  <data name="languageOne" xml:space="preserve">
+    <data name="languageOne" xml:space="preserve">
 		<value>英語</value>
 	</data>
 	<data name="languageTwo" xml:space="preserve">
@@ -127,31 +127,31 @@
         <value>多合一工具</value>
     </data>
     <data name="resultTitle" xml:space="preserve">
-    <value>使用我们的SaaS应用程序实现结果</value>
+        <value>使用我们的SaaS应用程序实现结果</value>
     </data>
     <data name="resultOneTitle" xml:space="preserve">
-    <value>增加销售额</value>
+        <value>增加销售额</value>
     </data>
     <data name="resultOneDes" xml:space="preserve">
-    <value>鼓励客户加入您的团队</value>
+        <value>鼓励客户加入您的团队</value>
     </data>
     <data name="resultTwoTitle" xml:space="preserve">
-    <value>减少旅行和成本</value>
+        <value>减少旅行和成本</value>
     </data>
     <data name="resultTwoDes" xml:space="preserve">
-    <value>减少频繁的现场访问</value>
+        <value>减少频繁的现场访问</value>
     </data>
     <data name="resultThreeTitle" xml:space="preserve">
-    <value>缩短项目时间</value>
+        <value>缩短项目时间</value>
     </data>
     <data name="resultThreeDes" xml:space="preserve">
-    <value>即时添加专家</value>
+        <value>即时添加专家</value>
     </data>
     <data name="resultFourTitle" xml:space="preserve">
-    <value>提高清晰度</value>
+        <value>提高清晰度</value>
     </data>
     <data name="resultFourDes" xml:space="preserve">
-    <value>语言选项实现无国界团队合作</value>
+        <value>语言选项实现无国界团队合作</value>
     </data>
     <data name="contentDescTitle" xml:space="preserve">
         <value>一个强大的应用程序</value>
@@ -240,7 +240,12 @@
     <data name="industryFifteen" xml:space="preserve">
         <value>汽车</value>
     </data>
-
+    <data name="printVOne" xml:space="preserve">
+        <value>打印 V1</value>
+    </data>
+    <data name="printVTwo" xml:space="preserve">
+        <value>打印 V2</value>
+    </data>
     <data name="cFormTitle" xml:space="preserve">
         <value>我们希望收到您的来信</value>
     </data>

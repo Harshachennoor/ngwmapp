@@ -1,58 +1,112 @@
-<div class="printButtons">
-    <button class="btn btn-primary" onclick="printForm()" id="printV1">Print</button>
-</div>
 <div id="printingForm">
     <div class="printHeaderDiv">
-        <div class="pCompanyTitle">
-            GLOBAL WELD MANAGEMENT
-        </div>
+        <div class="pCompanyTitle">GLOBAL WELD MANAGEMENT</div>
         <div class="pCompanyAddress">
             <p>@ngwmapp.Resources.Resources.cFATwo</p>
             <p>60143, @ngwmapp.Resources.Resources.cFAThree</p>
             <p>+1 (847) 250-5240</p>
         </div>
     </div>
-    <div class="cformHeading">
-        <h2 style="font-weight:bold;">@ngwmapp.Resources.Resources.cFormTitle!</h2>
-        <p>@ngwmapp.Resources.Resources.cFormDes</p>
+    <div class="printButtons">
+        <button class="btn btn-primary" onclick="printFormOne()"
+            type="button">@ngwmapp.Resources.Resources.printVOne</button>
+        <button class="btn btn-primary" onclick="printFormTwo()"
+            type="button">@ngwmapp.Resources.Resources.printVTwo</button>
     </div>
-    <div class="formDetails">
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.cFName:</label>
-            <hr class="dotted-line">
+    <div id="printFormOne" style="display: none;">
+        <div class="cformHeading">
+            <h2 style="font-weight:bold;">@ngwmapp.Resources.Resources.cFormTitle!</h2>
+            <p>@ngwmapp.Resources.Resources.cFormDes</p>
         </div>
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.cFCompany:</label>
-            <hr class="dotted-line">
+        <div class="formDetails">
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.cFName:</label>
+                <hr class="dotted-line">
+            </div>
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.cFCompany:</label>
+                <hr class="dotted-line">
+            </div>
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.cFEmail:</label>
+                <hr class="dotted-line">
+            </div>
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.CFPhone:</label>
+                <hr class="dotted-line">
+            </div>
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.cFSubject:</label>
+                <hr class="dotted-line">
+            </div>
+            <div class="Format">
+                <label>@ngwmapp.Resources.Resources.cFMessage:</label>
+                <hr class="dotted-line" style="margin-bottom: 0;">
+            </div>
+            <div>
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+                <hr class="dotted-line">
+            </div>
         </div>
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.cFEmail:</label>
-            <hr class="dotted-line">
-        </div>
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.CFPhone:</label>
-            <hr class="dotted-line">
-        </div>
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.cFSubject:</label>
-            <hr class="dotted-line">
-        </div>
-        <div class="Format">
-            <label>@ngwmapp.Resources.Resources.cFMessage:</label>
-            <hr class="dotted-line" style="margin-bottom: 0;">
-        </div>
-        <div>
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
-            <hr class="dotted-line">
+    </div>
+    <div id="cForm">
+        <form asp-action="SubmitForm" asp-controller="Contactform" method="post">
+            <div class="cformHeading">
+                <h2 style="font-weight:bold;">@ngwmapp.Resources.Resources.cFormTitle !</h2>
+                <p>@ngwmapp.Resources.Resources.cFormDes</p>
+            </div>
+            <div class="cDetails">
+                <div class="form-group">
+                    <label class="form-label">@ngwmapp.Resources.Resources.cFName<span class="Asterix">*</span></label>
 
-        </div>
+                    <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFNameP" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">@ngwmapp.Resources.Resources.cFCompany<span
+                            class="Asterix">*</span></label>
+                    <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFCompanyP" required>
+                </div>
+            </div>
+            <div class="cContact">
+                <div class="form-group">
+                    <label class="form-label">@ngwmapp.Resources.Resources.cFEmail<span class="Asterix">*</span></label>
+                    <input class="form-control" placeholder="@ngwmapp.Resources.Resources.CFEmailP" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">@ngwmapp.Resources.Resources.CFPhone<span class="Asterix">*</span></label>
+
+                    <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFPhoneP" required>
+                </div>
+            </div>
+            <div class="i form-group">
+                <label class="form-label">@ngwmapp.Resources.Resources.cFSubject<span class="Asterix">*</span></label>
+                <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFSubjectP" required>
+            </div>
+            <div class="i form-group">
+                <label class="form-label">@ngwmapp.Resources.Resources.cFMessage<span class="Asterix">*</span></label>
+                <textarea id="messageTextArea" class="form-control"
+                    placeholder="@ngwmapp.Resources.Resources.cFMessageP" required></textarea>
+            </div>
+            <div id="cSubmit">
+                <div class="cSubmitButton">
+                    <button type="submit" class="btn btn-primary">@ngwmapp.Resources.Resources.cFButton</button>
+                </div>
+                <div class="cAddress">
+                    <h5>@ngwmapp.Resources.Resources.cFAOne</h5>
+                    <h7>Global Weld Management</h7>
+                    <h7>@ngwmapp.Resources.Resources.cFATwo 60143</h7>
+                    <h7>@ngwmapp.Resources.Resources.cFAThree</h7>
+                    <h7>+1 (847) 250-5240</h7>
+                </div>
+            </div>
+        </form>
     </div>
     <div class="printFooterDiv">
         <div class="footerWebsiteLink">
@@ -66,60 +120,48 @@
 
     </div>
 </div>
-<div class="cForm">
-    <form asp-action="SubmitForm" asp-controller="Contactform" method="post">
-        <div class="cformHeading">
-            <h2 style="font-weight:bold;">@ngwmapp.Resources.Resources.cFormTitle !</h2>
-            <p>@ngwmapp.Resources.Resources.cFormDes</p>
-        </div>
-        <div class="cDetails">
-            <div class="form-group">
-                <label class="form-label">@ngwmapp.Resources.Resources.cFName<span class="Asterix">*</span></label>
 
-                <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFNameP" required>
-            </div>
-            <div class="form-group">
-                <label class="form-label">@ngwmapp.Resources.Resources.cFCompany<span class="Asterix">*</span></label>
-                <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFCompanyP" required>
-            </div>
-        </div>
-        <div class="cContact">
-            <div class="form-group">
-                <label class="form-label">@ngwmapp.Resources.Resources.cFEmail<span class="Asterix">*</span></label>
-                <input class="form-control" placeholder="@ngwmapp.Resources.Resources.CFEmailP" required>
-            </div>
-            <div class="form-group">
-                <label class="form-label">@ngwmapp.Resources.Resources.CFPhone<span class="Asterix">*</span></label>
-
-                <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFPhoneP" required>
-            </div>
-        </div>
-        <div class="i form-group">
-            <label class="form-label">@ngwmapp.Resources.Resources.cFSubject<span class="Asterix">*</span></label>
-            <input class="form-control" placeholder="@ngwmapp.Resources.Resources.cFSubjectP" required>
-        </div>
-        <div class="i form-group">
-            <label class="form-label">@ngwmapp.Resources.Resources.cFMessage<span class="Asterix">*</span></label>
-            <textarea class="form-control" placeholder="@ngwmapp.Resources.Resources.cFMessageP" required></textarea>
-
-
-        </div>
-        <div class="cSubmit">
-            <div class="cSubmitButton">
-                <button type="submit" class="btn btn-primary">@ngwmapp.Resources.Resources.cFButton</button>
-            </div>
-            <div class="cAddress">
-                <h5>@ngwmapp.Resources.Resources.cFAOne</h5>
-                <h7>Global Weld Management</h7>
-                <h7>@ngwmapp.Resources.Resources.cFATwo 60143</h7>
-                <h7>@ngwmapp.Resources.Resources.cFAThree</h7>
-                <h7>+1 (847) 250-5240</h7>
-            </div>
-        </div>
-    </form>
-</div>
 <script>
-    function printForm() {
-        window.print();
+    function toggleDisplay(element, show) {
+        element.style.display = show ? 'flex' : 'none';
     }
+
+    function printFormOne() {
+        const showForm = document.getElementById('printFormOne');
+        const hideForm = document.getElementById('cForm');
+
+        toggleDisplay(showForm, true);
+        showForm.style.flexDirection = 'column';
+        toggleDisplay(hideForm, false);
+
+        window.print();
+
+        toggleDisplay(showForm, false);
+        toggleDisplay(hideForm, true);
+    }
+
+    function printFormTwo() {
+        const inputs = document.querySelectorAll('input, textarea');
+        const originalPlaceholders = Array.from(inputs, input => input.placeholder);
+
+        inputs.forEach(input => input.placeholder = '');
+
+        const textarea = document.getElementById('messageTextArea');
+        const originalHeight = textarea.style.height;
+        textarea.style.height = '22.5rem';
+
+        const hideDiv = document.getElementById('cSubmit');
+        const originalDisplay = hideDiv.style.display;
+        hideDiv.style.display = 'none';
+
+        window.print();
+
+        window.addEventListener('focus', function restoreForm() {
+            textarea.style.height = originalHeight;
+            hideDiv.style.display = originalDisplay;
+            inputs.forEach((input, index) => input.placeholder = originalPlaceholders[index]);
+            window.removeEventListener('focus', restoreForm);
+        }, { once: true });
+    }
+
 </script>

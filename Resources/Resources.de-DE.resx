@@ -240,6 +240,12 @@
   <data name="industryFifteen" xml:space="preserve">
       <value>Automobil</value>
   </data>
+  <data name="printVOne" xml:space="preserve">
+      <value>Drucken V1</value>
+  </data>
+  <data name="printVTwo" xml:space="preserve">
+      <value>Drucken V2</value>
+  </data>
   <data name="cFormTitle" xml:space="preserve">
     <value>Wir würden gerne von Ihnen hören</value>
   </data>

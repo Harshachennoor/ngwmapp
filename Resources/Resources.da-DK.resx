@@ -243,7 +243,12 @@
     <data name="industryFifteen" xml:space="preserve">
         <value>Bil</value>
     </data>
-
+    <data name="printVOne" xml:space="preserve">
+        <value>Udskriv V1</value>
+    </data>
+    <data name="printVTwo" xml:space="preserve">
+        <value>Udskriv V2</value>
+    </data>
     <data name="cFormTitle" xml:space="preserve">
         <value>Vi vil gerne høre fra dig</value>
     </data>

@@ -708,7 +708,7 @@ button {
 
 /* Contact Form CSS */
 
-.cForm {
+#cForm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -735,7 +735,7 @@ button {
   min-height: 8rem;
 }
 
-.cSubmit {
+#cSubmit {
   display: flex;
   justify-content: space-between;
 }
@@ -765,33 +765,7 @@ button {
   padding: 0.5rem;
 }
 
-.printHeaderDiv {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0.5rem;
-  border-top: 2px solid #ddd;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 0.75rem;
-}
 
-.pCompanyTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #080474;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.pCompanyAddress {
-  display: flex;
-  margin-left: 5rem;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: right;
-
-}
 
 .formDetails {
   display: flex;
@@ -828,37 +802,14 @@ button {
   /* Spacing below the line */
 }
 
+
+
+.printHeaderDiv,
+#printFormOne,
 .printFooterDiv {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
-  border-top: 2px solid #ddd;
-  border-bottom: 2px solid #ddd;
-  padding: 0.5rem 0.25rem;
-}
-
-.footerWebsiteLink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footerSocialLinks {
-  display: flex;
-  flex-direction: column;
-  text-align: end;
-}
-
-.printFooterDiv img {
-  width: 1.5rem;
-  height: 1.5rem;
-  font-weight: bold;
-  padding: 0.25rem;
-}
-
-#printingForm {
   display: none;
 }
+
 
 /* **** */
 
@@ -1045,11 +996,11 @@ button {
     ;
   }
 
-  .cForm {
+  #cForm {
     padding: 0.5rem 0;
   }
 
-  .cForm p {
+  #cForm p {
     font-size: 0.75rem;
   }
 
@@ -1062,7 +1013,7 @@ button {
     flex-direction: column;
   }
 
-  .cSubmit {
+  #cSubmit {
     flex-direction: column;
     padding: 0.5rem;
   }
@@ -1091,19 +1042,70 @@ button {
   .searchLanguage,
   .d-print-none,
   .printButtons,
-  .cForm,
   .homeImage,
   .caContentDivs,
   .percentageResults,
   .contentDesc1,
   .weldingCC,
-  .solution {
+  .solution,
+  head {
     display: none;
   }
 
-  #printingForm {
-    width: 100%;
+  /* printing form Header Div css  */
+  .printHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 0.75rem;
+  }
+
+  .pCompanyTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #080474;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .pCompanyAddress {
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  /* printing Form Footer Div CSS  */
+  .printFooterDiv {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .footerWebsiteLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerSocialLinks {
     display: flex;
     flex-direction: column;
+    text-align: end;
+  }
+
+  .printFooterDiv img {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: bold;
+    padding: 0.25rem;
   }
 }

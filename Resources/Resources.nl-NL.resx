@@ -240,10 +240,12 @@
     <data name="industryFifteen" xml:space="preserve">
         <value>Auto</value>
     </data>
-
-	<data name="footerTitle" xml:space="preserve">
-		<value>Een applicatie met wereldwijde toegankelijkheid en wereldwijde samenwerking</value>
-	</data>
+    <data name="printVOne" xml:space="preserve">
+        <value>Afdrukken V1</value>
+    </data>
+    <data name="printVTwo" xml:space="preserve">
+        <value>Afdrukken V2</value>
+    </data>
     <data name="cFormTitle" xml:space="preserve">
         <value>We willen graag van je horen</value>
     </data>
@@ -298,7 +300,9 @@
     <data name="cFAThree" xml:space="preserve">
         <value>VS</value>
     </data>
-
+    <data name="footerTitle" xml:space="preserve">
+		<value>Een applicatie met wereldwijde toegankelijkheid en wereldwijde samenwerking</value>
+	</data>
     <data name="footerOneSub" xml:space="preserve">
         <value>Klantenservice</value>
     </data>
